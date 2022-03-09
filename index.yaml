@@ -1,3 +1,181 @@
 apiVersion: v1
-entries: {}
-generated: "2022-03-07T15:26:07.809711909-05:00"
+entries:
+  cluster-openstack:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.7.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.7.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.601986744-05:00"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 8223b0a4c8b1fe018bded9b4f202e4db919686c4ef323748f6285756a92eb58b
+    home: https://github.com/giantswarm/cluster-openstack
+    name: cluster-openstack
+    type: application
+    urls:
+    - cluster-openstack-0.7.0.tgz
+    version: 0.7.0
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.6.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.6.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.601450609-05:00"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 97159c98c04fcd89900dfc2a8fb6f1250cec60336a9e4f93dd771054d9575e70
+    home: https://github.com/giantswarm/cluster-openstack
+    name: cluster-openstack
+    type: application
+    urls:
+    - cluster-openstack-0.6.0.tgz
+    version: 0.6.0
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.5.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.5.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.600858564-05:00"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 1319f1f2d1c10319282cbbfdbe0d502abb2c2e33e8dd452fc075268d87ca283e
+    home: https://github.com/giantswarm/cluster-openstack
+    name: cluster-openstack
+    type: application
+    urls:
+    - cluster-openstack-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.4.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.4.0.tgz-meta/README.md
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.600040497-05:00"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: e43dbb0c04e1bdae47c78758f498cbea093a6323fbc595b8fca872cd1af816a0
+    name: cluster-openstack
+    type: application
+    urls:
+    - cluster-openstack-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.3.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.3.1.tgz-meta/README.md
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.599197806-05:00"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 3ef8d00b3b5ca9ce7dfa93bd09c15cc0a89a322c2b1a1e95a3bdb33acf06964f
+    name: cluster-openstack
+    type: application
+    urls:
+    - cluster-openstack-0.3.1.tgz
+    version: 0.3.1
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.3.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.3.0.tgz-meta/README.md
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.598469112-05:00"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 23d75529fe050169fb76e29473d2b3c439dbd2c5d40fd86d6651fde2d1a0d683
+    name: cluster-openstack
+    type: application
+    urls:
+    - cluster-openstack-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-openstack-0.2.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-openstack-0.2.2.tgz-meta/README.md
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.597846134-05:00"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 9e8a59de86026bf558f543dd09bc10faa83893f16140c9cc0d8785849fcf8a70
+    name: cluster-openstack
+    type: application
+    urls:
+    - cluster-openstack-0.2.2.tgz
+    version: 0.2.2
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-openstack-0.2.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-openstack-0.2.1.tgz-meta/README.md
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.596236961-05:00"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 6b877e084e83f074e01cfc1d4f2d7d8202f807611f0c41e16af4bb4fd477d6c0
+    name: cluster-openstack
+    type: application
+    urls:
+    - cluster-openstack-0.2.1.tgz
+    version: 0.2.1
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-openstack-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-openstack-0.2.0.tgz-meta/README.md
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.595018443-05:00"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 3561cbdd0dc4f2d905927b539b6e6b1d4aa4702bbbbc0878c9c71cd0d52179cd
+    name: cluster-openstack
+    type: application
+    urls:
+    - cluster-openstack-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-openstack-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-openstack-0.1.0.tgz-meta/README.md
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.594357437-05:00"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: 078c9b9b500a8628bc19ef665ea4d450867fa2e937d296909fcf20804d0bfe67
+    name: cluster-openstack
+    type: application
+    urls:
+    - cluster-openstack-0.1.0.tgz
+    version: 0.1.0
+  default-apps-openstack:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.603097461-05:00"
+    description: A Helm chart defining the preinstalled apps running in all Giant
+      Swarm OpenStack clusters.
+    digest: 915448f1b8e470c87eed88c6f8fb0e6cbf7a9c7bd5b2f87d937f6709579dda30
+    home: https://github.com/giantswarm/default-apps-openstack
+    name: default-apps-openstack
+    urls:
+    - default-apps-openstack-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.602554439-05:00"
+    description: A Helm chart for default-apps-openstack
+    digest: b7f785f7ea08451b9dfa0d6146e06372abfba312aa4afeb30043f74eb876d55a
+    home: https://github.com/giantswarm/default-apps-openstack-app
+    name: default-apps-openstack
+    urls:
+    - default-apps-openstack-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+    apiVersion: v2
+    created: "2022-03-09T08:30:50.602266774-05:00"
+    description: A Helm chart for default-apps-openstack
+    digest: 1c3ea0b8986233b5fe3f9302e755b6c9afaac3da9f013f21b259d0ebc714c810
+    home: https://github.com/giantswarm/default-apps-openstack-app
+    name: default-apps-openstack
+    urls:
+    - default-apps-openstack-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-09T08:30:50.593611932-05:00"
