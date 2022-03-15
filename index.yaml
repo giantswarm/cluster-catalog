@@ -2,6 +2,19 @@ apiVersion: v1
 entries:
   cluster-aws:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.1.11.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.1.11.tgz-meta/README.md
+    apiVersion: v2
+    created: "2022-03-15T09:42:48.001715449Z"
+    description: A helm chart for creating Cluster API clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: cd3a6b2b7c121e541a0469b716001872029e60cec0f0f4feee785b8ed766c99a
+    name: cluster-aws
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-aws-0.1.11.tgz
+    version: 0.1.11
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.1.10.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.1.10.tgz-meta/README.md
     apiVersion: v2
@@ -206,4 +219,4 @@ entries:
     urls:
     - default-apps-openstack-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-09T16:03:21.810034559Z"
+generated: "2022-03-15T09:42:48.000947783Z"
