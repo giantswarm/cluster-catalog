@@ -205,6 +205,19 @@ entries:
     version: 0.1.0
   default-apps-aws:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.1.5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.1.5.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    created: "2022-03-22T10:27:39.989830159Z"
+    description: A Helm chart for default-apps-aws
+    digest: e0b43dea4a124f5891ab0becb09da4b7941a104051e23de0ded4e83fe0ecdf06
+    home: https://github.com/giantswarm/default-apps-aws
+    name: default-apps-aws
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.1.5.tgz
+    version: 0.1.5
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.1.4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.1.4.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -284,4 +297,4 @@ entries:
     urls:
     - default-apps-openstack-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-22T07:54:10.32669748Z"
+generated: "2022-03-22T10:27:39.988975112Z"
