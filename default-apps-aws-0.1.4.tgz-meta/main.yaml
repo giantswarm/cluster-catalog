@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.1.4.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.1.4.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: default-apps-aws-0.1.4.tgz
+dateCreated: '2022-03-22T07:46:34.107430'
+digest: e619091cfc39270ca4a38adaf2b251fad577ec93beb72518356915390bc63ced
+home: https://github.com/giantswarm/default-apps-aws
