@@ -299,6 +299,20 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.1.2.tgz
     version: 0.1.2
+  default-apps-gcp:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.1.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.1.2.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    created: "2022-03-25T15:31:24.677091221Z"
+    description: A Helm chart for default-apps-gcp
+    digest: 02807b21a01c01e0b9c66bf5ad7760d298c7f2b6b962bbf5d8dda246aba4bc75
+    home: https://github.com/giantswarm/default-apps-gcp
+    name: default-apps-gcp
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.1.2.tgz
+    version: 0.1.2
   default-apps-openstack:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.2.0.tgz-meta/main.yaml
@@ -340,4 +354,4 @@ entries:
     urls:
     - default-apps-openstack-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-25T14:46:48.328908484Z"
+generated: "2022-03-25T15:31:24.675934009Z"
