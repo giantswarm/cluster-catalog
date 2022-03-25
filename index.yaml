@@ -68,6 +68,20 @@ entries:
     version: 0.1.10
   cluster-gcp:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    created: "2022-03-25T20:47:40.534945251Z"
+    description: A helm chart for creating Cluster API clusters with the GCP infrastructure
+      provider (CAPG).
+    digest: 0a347e7f23284df3d8ec25916029a073837b2b09323f0692b559c050bc623c58
+    name: cluster-gcp
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -354,4 +368,4 @@ entries:
     urls:
     - default-apps-openstack-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-25T15:31:24.675934009Z"
+generated: "2022-03-25T20:47:40.534195807Z"
