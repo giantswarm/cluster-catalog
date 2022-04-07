@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.1.5.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.1.5.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: default-apps-gcp-0.1.5.tgz
+dateCreated: '2022-04-07T15:38:33.599952'
+digest: 2addb1fd8f2037549080cf75442faf860bcddbe8eae1e997a4aedbdd23ed048d
+home: https://github.com/giantswarm/default-apps-gcp
+restrictions:
+  compatibleProviders:
+  - gcp
