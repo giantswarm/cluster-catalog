@@ -167,6 +167,22 @@ entries:
     version: 0.1.0
   cluster-openstack:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.10.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.10.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.10.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-04-12T08:46:30.967448347Z"
+    description: A helm chart for creating Cluster API clusters with the OpenStack
+      infrastructure provider (CAPO).
+    digest: fa0b2c922372c9ad65c8b2ad0a04b5fcf2019165a21fa34b46ca7cbdecc33ff5
+    home: https://github.com/giantswarm/cluster-openstack
+    name: cluster-openstack
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.10.0.tgz
+    version: 0.10.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.9.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.9.0.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -575,4 +591,4 @@ entries:
     urls:
     - default-apps-openstack-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-11T14:01:49.86777157Z"
+generated: "2022-04-12T08:46:30.966688796Z"
