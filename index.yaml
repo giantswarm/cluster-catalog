@@ -349,6 +349,23 @@ entries:
     urls:
     - cluster-openstack-0.1.0.tgz
     version: 0.1.0
+  cluster-shared:
+  - annotations:
+      application.giantswarm.io/area: kaas
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-shared-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-shared-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-04-12T09:02:13.982856599Z"
+    description: A library chart of shared CAPI cluster helpers
+    digest: 36b5337fb92081e59887ada9b3210e66cbec6c988c6cd0932803b20baf3a4d9e
+    home: https://github.com/giantswarm/cluster-shared
+    name: cluster-shared
+    type: library
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-shared-0.1.1.tgz
+    version: 0.1.1
   cluster-vsphere:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-0.2.0.tgz-meta/main.yaml
@@ -591,4 +608,4 @@ entries:
     urls:
     - default-apps-openstack-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-12T08:46:30.966688796Z"
+generated: "2022-04-12T09:02:13.982002245Z"
