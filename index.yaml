@@ -561,14 +561,13 @@ entries:
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-0.2.0.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2022-03-29T13:39:13.378816493Z"
+    created: "2022-05-09T06:26:49.48154721Z"
     description: A helm chart for creating Cluster API clusters with the vSphere provider
       (CAPV).
-    digest: 599a354055367ec4e5a233e1e6599a282ca1ecdf5cee6eb21081ab23b68be50f
+    digest: 8cc8d0c94cfd062e18d54b8f6972e034e6f3ecbf7d34ced2a60a4b6152f3e8de
     keywords:
     - capv
     - vsphere
-    kubeVersion: '>=1.19.0 < 1.23.0'
     maintainers:
     - email: team-rocket@giantswarm.io
       name: Team Rocket
@@ -809,4 +808,4 @@ entries:
     urls:
     - default-apps-openstack-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-04T09:23:25.691136564Z"
+generated: "2022-05-09T06:26:49.480450274Z"
