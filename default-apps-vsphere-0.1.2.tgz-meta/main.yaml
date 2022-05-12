@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.2.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: default-apps-vsphere-0.1.2.tgz
+dateCreated: '2022-05-12T10:50:48.315671'
+digest: 23ecb569666281805bd52ec8f04fe23783279aa3e6990f37da75a36c509022c1
+home: https://github.com/giantswarm/default-apps-vsphere
+restrictions:
+  compatibleProviders:
+  - vsphere
