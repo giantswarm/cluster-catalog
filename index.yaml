@@ -874,6 +874,21 @@ entries:
     version: 0.1.0
   default-apps-vsphere:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.2.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-05-17T13:26:32.603603714Z"
+    description: A Helm chart which defines the pre-installed apps in all Giant Swarm
+      vSphere clusters
+    digest: 4b4573e17f99417cba00047382ec1cb23d11a2bb81662a7d6f23b55a697f12e4
+    home: https://github.com/giantswarm/default-apps-vsphere
+    name: default-apps-vsphere
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.2.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -903,4 +918,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.1.tgz
     version: 0.1.1
-generated: "2022-05-13T16:06:33.910462522Z"
+generated: "2022-05-17T13:26:32.602701891Z"
