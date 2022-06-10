@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.12.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.12.1.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-openstack-0.12.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cluster-openstack-0.12.1.tgz
+dateCreated: '2022-06-10T17:44:42.579522'
+digest: ddcdf566654881f531c91ee11c84653a1b6fc0eae45ec2ac4d6b957ed34523e1
+home: https://github.com/giantswarm/cluster-openstack
+restrictions:
+  compatibleProviders:
+  - openstack
