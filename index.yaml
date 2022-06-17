@@ -805,6 +805,22 @@ entries:
   cluster-shared:
   - annotations:
       application.giantswarm.io/area: kaas
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-shared-0.4.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-shared-0.4.1.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-06-17T06:26:51.816822842Z"
+    description: A library chart of shared CAPI cluster helpers
+    digest: c6c09ad3be357711cacaacdf0fff6dd25a5a2acd9749dd17504de648c8beb2be
+    home: https://github.com/giantswarm/cluster-shared
+    name: cluster-shared
+    type: library
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-shared-0.4.1.tgz
+    version: 0.4.1
+  - annotations:
+      application.giantswarm.io/area: kaas
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-shared-0.4.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-shared-0.4.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -1293,4 +1309,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.1.tgz
     version: 0.1.1
-generated: "2022-06-16T14:50:14.88149707Z"
+generated: "2022-06-17T06:26:51.816010401Z"
