@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/area: kaas
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-shared-0.4.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-shared-0.4.3.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: cluster-shared-0.4.3.tgz
+dateCreated: '2022-06-17T10:11:31.534365'
+digest: 13a153ab9f36b9a6309624fe9fac0c688a3de157d2ce818e4acc59a1c6df09a9
+home: https://github.com/giantswarm/cluster-shared
