@@ -1196,6 +1196,22 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.1.2.tgz
     version: 0.1.2
+  default-apps-cloud-director:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-cloud-director-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-cloud-director-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-cloud-director-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-06-24T11:48:10.689125977Z"
+    description: A Helm chart which defines the pre-installed apps in all Giant Swarm
+      Cloud Director (VCD) clusters
+    digest: 7842ce6b990b154d001d56cad1fcc901759bcf6c88653b96ff796d1ecd1f1b6f
+    home: https://github.com/giantswarm/default-apps-cloud-director
+    name: default-apps-cloud-director
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-cloud-director-0.1.0.tgz
+    version: 0.1.0
   default-apps-gcp:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.7.2.tgz-meta/main.yaml
@@ -1545,4 +1561,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.1.tgz
     version: 0.1.1
-generated: "2022-06-23T15:07:26.588921393Z"
+generated: "2022-06-24T11:48:10.688447281Z"
