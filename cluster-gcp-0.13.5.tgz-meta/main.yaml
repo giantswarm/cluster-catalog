@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.13.5.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.13.5.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.13.5.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cluster-gcp-0.13.5.tgz
+dateCreated: '2022-06-28T13:50:25.092419'
+digest: 638dbb0015e08b7874dd8f979d546fd2dee935cac9bb000323313830be1207f1
+restrictions:
+  compatibleProviders:
+  - gcp
