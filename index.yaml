@@ -132,6 +132,25 @@ entries:
     version: 0.1.10
   cluster-gcp:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.14.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.14.2.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.14.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-06-29T08:31:39.347406538Z"
+    dependencies:
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: '>0.4.0'
+    description: A helm chart for creating Cluster API clusters with the GCP infrastructure
+      provider (CAPG).
+    digest: c1afeb3391217f9b808a00a48e70460638787e8e4b98a5e192e42f30b70f5e4b
+    name: cluster-gcp
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.14.2.tgz
+    version: 0.14.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.14.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.14.1.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -1805,4 +1824,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.1.tgz
     version: 0.1.1
-generated: "2022-06-29T08:25:56.456955409Z"
+generated: "2022-06-29T08:31:39.345856866Z"
