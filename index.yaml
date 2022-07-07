@@ -130,6 +130,34 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/cluster-aws-0.1.10.tgz
     version: 0.1.10
+  cluster-cloud-director:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-cloud-director-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-cloud-director-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-cloud-director-0.1.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.0-dev
+    created: "2022-07-07T12:53:06.491350929Z"
+    description: A helm chart for creating Cluster API clusters with the VMware Cloud
+      Director (VCD) infrastructure provider (CAPVCD).
+    digest: 053b1f7b8e4bd55c35e6eff3c805a029a1f1f0e89198e3574fb4f1ae1f153d58
+    home: https://github.com/giantswarm/cluster-cloud-director
+    keywords:
+    - capvcd
+    - vmware
+    - cloud
+    - director
+    - vcd
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-cloud-director
+    sources:
+    - https://github.com/giantswarm/cluster-cloud-director
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-cloud-director-0.1.1.tgz
+    version: 0.1.1
   cluster-gcp:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.15.0.tgz-meta/main.yaml
@@ -1901,4 +1929,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.1.tgz
     version: 0.1.1
-generated: "2022-07-06T09:57:14.527036622Z"
+generated: "2022-07-07T12:53:06.490485241Z"
