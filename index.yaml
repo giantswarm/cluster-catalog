@@ -1547,6 +1547,19 @@ entries:
     version: 0.1.0
   default-apps-gcp:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.10.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.10.1.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    created: "2022-07-14T09:01:20.277968614Z"
+    description: A Helm chart for default-apps-gcp
+    digest: 3534da078cdc8319a18c3bc461e72eda85e3b4d4835bc6c543279828e4f60698
+    home: https://github.com/giantswarm/default-apps-gcp
+    name: default-apps-gcp
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.10.1.tgz
+    version: 0.10.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.10.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.10.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -1961,4 +1974,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.1.tgz
     version: 0.1.1
-generated: "2022-07-14T08:31:21.845769621Z"
+generated: "2022-07-14T09:01:20.27652718Z"
