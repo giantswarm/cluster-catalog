@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.5.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.5.0.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.5.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: default-apps-aws-0.5.0.tgz
+dateCreated: '2022-07-26T13:02:02.112026'
+digest: 78ed93c599f595923563f57460c0d3e445896ccd81250e8c31eef65bc59567f0
+home: https://github.com/giantswarm/default-apps-aws
+restrictions:
+  compatibleProviders:
+  - aws
