@@ -2,6 +2,25 @@ apiVersion: v1
 entries:
   cluster-aws:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.7.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.7.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.7.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-08-09T08:11:20.754560767Z"
+    dependencies:
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.3.0
+    description: A helm chart for creating Cluster API clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: 154bfa19b474490378c2a1c17bbab54bbb15c2244da6cc230e8d40bf7ba2c00e
+    name: cluster-aws
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-aws-0.7.0.tgz
+    version: 0.7.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.6.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.6.2.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -2403,4 +2422,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.1.tgz
     version: 0.1.1
-generated: "2022-08-09T08:04:55.909490339Z"
+generated: "2022-08-09T08:11:20.753100046Z"
