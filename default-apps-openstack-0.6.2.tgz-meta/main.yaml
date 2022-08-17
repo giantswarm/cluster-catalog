@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.6.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.6.2.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.6.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: default-apps-openstack-0.6.2.tgz
+dateCreated: '2022-08-17T09:09:11.119015'
+digest: a86400114dfc4886ca2ed5c23e211e0e394cd8d9847a7dce0d378b69bed70195
+home: https://github.com/giantswarm/default-apps-openstack
+icon: https://s.giantswarm.io/app-icons/openstack/1/light.svg
+restrictions:
+  compatibleProviders:
+  - openstack
