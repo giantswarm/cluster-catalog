@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.13.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.13.0.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.13.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: default-apps-gcp-0.13.0.tgz
+dateCreated: '2022-08-25T15:18:53.897585'
+digest: c4e05db6a4f16349f9ddd1b1199718c20eed810aea7b719f1bf621edece18d7d
+home: https://github.com/giantswarm/default-apps-gcp
+icon: https://s.giantswarm.io/app-icons/gcp/1/light.svg
+restrictions:
+  compatibleProviders:
+  - gcp
