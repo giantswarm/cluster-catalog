@@ -2415,6 +2415,20 @@ entries:
     version: 0.2.0
   default-apps-aws:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.5.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.5.2.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.5.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-09-14T13:16:25.173945279Z"
+    description: A Helm chart for default-apps-aws
+    digest: 03c88370022e63d511f781a8b392f4619d2ef745f0c542d5793cfb17cce946c5
+    home: https://github.com/giantswarm/default-apps-aws
+    name: default-apps-aws
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.5.2.tgz
+    version: 0.5.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.5.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.5.1.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -3071,4 +3085,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.1.tgz
     version: 0.1.1
-generated: "2022-09-13T13:56:33.517658618Z"
+generated: "2022-09-14T13:16:25.173046196Z"
