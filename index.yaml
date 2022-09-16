@@ -1,5 +1,22 @@
 apiVersion: v1
 entries:
+  capa-internal-proxy-stack:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/capa-internal-proxy-stack-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/capa-internal-proxy-stack-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-hydra
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/capa-internal-proxy-stack-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-09-16T12:42:22.830429764Z"
+    description: repository to aggregate CRs necessery to create capa internal outgoing
+      proxy cluster
+    digest: cae14f6395c18785b0e2e3106a04e5e9b8568dc6d4c252901fe237bcb2794f23
+    home: https://github.com/giantswarm/capa-internal-proxy-stack
+    name: capa-internal-proxy-stack
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/capa-internal-proxy-stack-0.1.0.tgz
+    version: 0.1.0
   cluster-aws:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.9.2.tgz-meta/main.yaml
@@ -3132,4 +3149,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.1.tgz
     version: 0.1.1
-generated: "2022-09-16T09:48:51.028425098Z"
+generated: "2022-09-16T12:42:22.829694835Z"

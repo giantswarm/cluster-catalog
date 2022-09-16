@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/capa-internal-proxy-stack-0.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/capa-internal-proxy-stack-0.1.0.tgz-meta/README.md
+  application.giantswarm.io/team: team-hydra
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/capa-internal-proxy-stack-0.1.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: capa-internal-proxy-stack-0.1.0.tgz
+dateCreated: '2022-09-16T12:42:21.583526'
+digest: cae14f6395c18785b0e2e3106a04e5e9b8568dc6d4c252901fe237bcb2794f23
+home: https://github.com/giantswarm/capa-internal-proxy-stack
