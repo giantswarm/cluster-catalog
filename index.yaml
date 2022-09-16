@@ -3149,4 +3149,21 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.1.tgz
     version: 0.1.1
-generated: "2022-09-16T12:42:22.829694835Z"
+  outgoing-proxy-stack:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz-meta/README.md
+      application.giantswarm.io/team: team-hydra
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-09-16T13:45:49.054722786Z"
+    description: repository to aggregate CRs necessery to create capa internal outgoing
+      proxy cluster
+    digest: 237f6eab8a983dd0c9693fe3acf6a29b5c97092e3a1ec6a6a81ba9646a9d8583
+    home: https://github.com/giantswarm/outgoing-proxy-stack
+    name: outgoing-proxy-stack
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
+    version: 0.1.2
+generated: "2022-09-16T13:45:49.054286992Z"
