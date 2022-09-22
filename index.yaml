@@ -2937,6 +2937,22 @@ entries:
     version: 0.1.2
   default-apps-openstack:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.7.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.7.2.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.7.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-09-22T09:30:19.250094235Z"
+    description: A Helm chart defining the preinstalled apps running in all Giant
+      Swarm OpenStack clusters.
+    digest: cce0848cf17ce9cc01b0330b42c6297bcb09cf1acc1430c5f90e8906a5e9190b
+    home: https://github.com/giantswarm/default-apps-openstack
+    icon: https://s.giantswarm.io/app-icons/openstack/1/light.svg
+    name: default-apps-openstack
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.7.2.tgz
+    version: 0.7.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.7.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-openstack-0.7.1.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -3303,4 +3319,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2022-09-22T07:20:11.811396571Z"
+generated: "2022-09-22T09:30:19.248899851Z"
