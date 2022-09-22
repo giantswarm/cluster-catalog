@@ -3256,6 +3256,22 @@ entries:
     version: 0.1.1
   outgoing-proxy-stack:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.6.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.6.tgz-meta/README.md
+      application.giantswarm.io/team: team-hydra
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.6.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-09-22T11:54:18.979181127Z"
+    description: repository to aggregate CRs necessery to create capa internal outgoing
+      proxy cluster
+    digest: 4ddeb5e70cb296c9409f90afedde2c8fa7da2b179f7c27343a676b6eca6a1c47
+    home: https://github.com/giantswarm/outgoing-proxy-stack
+    name: outgoing-proxy-stack
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.6.tgz
+    version: 0.1.6
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.5.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.5.tgz-meta/README.md
       application.giantswarm.io/team: team-hydra
@@ -3319,4 +3335,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2022-09-22T09:30:19.248899851Z"
+generated: "2022-09-22T11:54:18.978587329Z"
