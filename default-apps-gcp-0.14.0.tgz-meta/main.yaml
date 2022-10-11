@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/app-type: bundle
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.14.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.14.0.tgz-meta/README.md
+  application.giantswarm.io/team: hydra
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.14.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: default-apps-gcp-0.14.0.tgz
+dateCreated: '2022-10-11T09:53:44.811087'
+digest: 7213ebabc564941c1e9adde369a0eb9e631bd9ba6f553e2772468de189724540
+home: https://github.com/giantswarm/default-apps-gcp
+icon: https://s.giantswarm.io/app-icons/gcp/1/light.svg
+restrictions:
+  compatibleProviders:
+  - gcp
