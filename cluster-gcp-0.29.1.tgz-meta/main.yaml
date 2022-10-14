@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.29.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.29.1.tgz-meta/README.md
+  application.giantswarm.io/team: hydra
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-gcp-0.29.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cluster-gcp-0.29.1.tgz
+dateCreated: '2022-10-14T17:04:38.023807'
+digest: 95cabfd4aeb3f65b9b316ae950a62cbab26421838e734df80170b3318e422321
+icon: https://s.giantswarm.io/app-icons/gcp/1/light.svg
+restrictions:
+  compatibleProviders:
+  - gcp
