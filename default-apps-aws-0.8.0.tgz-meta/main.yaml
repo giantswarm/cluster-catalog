@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/app-type: bundle
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.8.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.8.0.tgz-meta/README.md
+  application.giantswarm.io/team: hydra
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.8.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: default-apps-aws-0.8.0.tgz
+dateCreated: '2022-11-15T15:33:36.265829'
+digest: b62c1106c3750821d23c471ebc423ba13c61cb667b0708df98c9cad40b5ad3c6
+home: https://github.com/giantswarm/default-apps-aws
+restrictions:
+  compatibleProviders:
+  - aws
+  - capa
