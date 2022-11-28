@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-cloud-director-0.4.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-cloud-director-0.4.1.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-cloud-director-0.4.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cluster-cloud-director-0.4.1.tgz
+dateCreated: '2022-11-28T06:47:05.267086'
+digest: bcf3b2471debd67581d548c014ec35c870f082df1366b356bff037c1bd4be9e1
+home: https://github.com/giantswarm/cluster-cloud-director
+restrictions:
+  compatibleProviders:
+  - cloud-director
