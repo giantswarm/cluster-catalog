@@ -4140,6 +4140,22 @@ entries:
   default-apps-gcp:
   - annotations:
       application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.17.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.17.0.tgz-meta/README.md
+      application.giantswarm.io/team: hydra
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.17.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-01-06T11:15:04.261999315Z"
+    description: A Helm chart for default-apps-gcp
+    digest: 7479f5d8a59e9fb732853eb9efcfd750a95b57c21aa9f53985264f21a78cd458
+    home: https://github.com/giantswarm/default-apps-gcp
+    icon: https://s.giantswarm.io/app-icons/gcp/1/light.svg
+    name: default-apps-gcp
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.17.0.tgz
+    version: 0.17.0
+  - annotations:
+      application.giantswarm.io/app-type: bundle
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.16.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-gcp-0.16.1.tgz-meta/README.md
       application.giantswarm.io/team: hydra
@@ -5189,4 +5205,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2023-01-06T06:51:46.462685893Z"
+generated: "2023-01-06T11:15:04.261216053Z"
