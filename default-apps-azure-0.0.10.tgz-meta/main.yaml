@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/app-type: bundle
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-azure-0.0.10.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-azure-0.0.10.tgz-meta/README.md
+  application.giantswarm.io/team: clippy
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-azure-0.0.10.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: default-apps-azure-0.0.10.tgz
+dateCreated: '2023-02-02T10:52:30.285533'
+digest: 0c66c38956619bf37bb2d2aaa61e400a1fac9642507b2c0e9ee24d6e22bd3b7e
+home: https://github.com/giantswarm/default-apps-azure
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
