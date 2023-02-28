@@ -1232,6 +1232,26 @@ entries:
     version: 0.1.10
   cluster-azure:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-azure-0.0.13.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-azure-0.0.13.tgz-meta/README.md
+      application.giantswarm.io/team: clippy
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-azure-0.0.13.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-02-28T13:55:46.4218005Z"
+    dependencies:
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.6.4
+    description: A helm chart for creating Cluster API clusters with the Azure infrastructure
+      provider (CAPZ).
+    digest: 1ddf2a25c5ac0e8f11c674dd4877f5397196315e74a1852f1e0ea6c2a388be76
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    name: cluster-azure
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-azure-0.0.13.tgz
+    version: 0.0.13
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-azure-0.0.12.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-azure-0.0.12.tgz-meta/README.md
       application.giantswarm.io/team: clippy
@@ -6134,4 +6154,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2023-02-27T11:44:37.819794042Z"
+generated: "2023-02-28T13:55:46.420548127Z"
