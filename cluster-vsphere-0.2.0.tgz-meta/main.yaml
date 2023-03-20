@@ -5,8 +5,9 @@ annotations:
   application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-0.2.0.tgz-meta/values.schema.json
 chartApiVersion: v2
 chartFile: cluster-vsphere-0.2.0.tgz
-dateCreated: '2022-05-09T06:26:48.383362'
-digest: 8cc8d0c94cfd062e18d54b8f6972e034e6f3ecbf7d34ced2a60a4b6152f3e8de
+dateCreated: '2023-03-20T08:10:32.197073'
+digest: 691e117abf3c479dfd08e41f3f63d2a19ec823ccfbc0b0aa5c25b5d9922bda7b
+home: https://github.com/giantswarm/cluster-vsphere
 restrictions:
   compatibleProviders:
   - vsphere

@@ -4370,13 +4370,19 @@ entries:
       application.giantswarm.io/team: rocket
       application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-0.2.0.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2022-05-09T06:26:49.48154721Z"
+    created: "2023-03-20T08:10:33.546522663Z"
+    dependencies:
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.6.3
     description: A helm chart for creating Cluster API clusters with the vSphere provider
       (CAPV).
-    digest: 8cc8d0c94cfd062e18d54b8f6972e034e6f3ecbf7d34ced2a60a4b6152f3e8de
+    digest: 691e117abf3c479dfd08e41f3f63d2a19ec823ccfbc0b0aa5c25b5d9922bda7b
+    home: https://github.com/giantswarm/cluster-vsphere
     keywords:
     - capv
     - vsphere
+    - vmware
     maintainers:
     - email: team-rocket@giantswarm.io
       name: Team Rocket
@@ -6494,4 +6500,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2023-03-20T08:06:11.31024489Z"
+generated: "2023-03-20T08:10:33.545087427Z"
