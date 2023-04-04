@@ -5200,6 +5200,24 @@ entries:
   default-apps-azure:
   - annotations:
       application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-azure-0.0.14.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-azure-0.0.14.tgz-meta/README.md
+      application.giantswarm.io/team: clippy
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-azure-0.0.14.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-04-04T08:33:52.590451402Z"
+    description: A Helm chart defining the preinstalled apps running in all Giant
+      Swarm Azure clusters.
+    digest: 0e0973b1b7cfb7df67d24504e1a35b6e752f6c137ae09a63585d914b1e1b9367
+    home: https://github.com/giantswarm/default-apps-azure
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    name: default-apps-azure
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-azure-0.0.14.tgz
+    version: 0.0.14
+  - annotations:
+      application.giantswarm.io/app-type: bundle
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-azure-0.0.13.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-azure-0.0.13.tgz-meta/README.md
       application.giantswarm.io/team: clippy
@@ -6833,4 +6851,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2023-04-03T13:31:27.13910381Z"
+generated: "2023-04-04T08:33:52.589493233Z"
