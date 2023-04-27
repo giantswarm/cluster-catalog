@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.32.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.32.1.tgz-meta/README.md
+  application.giantswarm.io/team: hydra
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-aws-0.32.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cluster-aws-0.32.1.tgz
+dateCreated: '2023-04-27T12:08:13.068928'
+digest: 253682a7cfb0f2ab402708b3c60002e0f1abd5419df922ae0027bbced6226697
+icon: https://s.giantswarm.io/app-icons/aws/1/dark.svg
+restrictions:
+  compatibleProviders:
+  - aws
+  - capa
