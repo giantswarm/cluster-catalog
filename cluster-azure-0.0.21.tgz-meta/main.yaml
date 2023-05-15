@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-azure-0.0.21.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-azure-0.0.21.tgz-meta/README.md
+  application.giantswarm.io/team: clippy
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-azure-0.0.21.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cluster-azure-0.0.21.tgz
+dateCreated: '2023-05-15T16:42:48.732639'
+digest: fc50253d2a8b7d31d8837da4e15de154cd3c83d0680a4e96b7b76113d311d27c
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+restrictions:
+  compatibleProviders:
+  - azure
+  - capz
