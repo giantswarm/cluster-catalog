@@ -7143,6 +7143,23 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-cloud-director-0.1.0.tgz
     version: 0.1.0
+  default-apps-eks:
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.1.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-08-08T16:54:12.063330675Z"
+    description: A Helm chart for default-apps-eks
+    digest: 61247658b6d167146a98f58412d09731e78e9c0d6d5c7b9cd442273bd204489a
+    home: https://github.com/giantswarm/default-apps-eks
+    icon: https://s.giantswarm.io/app-icons/aws/1/dark.svg
+    name: default-apps-eks
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.1.1.tgz
+    version: 0.1.1
   default-apps-gcp:
   - annotations:
       application.giantswarm.io/app-type: bundle
@@ -8468,4 +8485,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2023-08-04T06:21:16.333634943Z"
+generated: "2023-08-08T16:54:12.062474946Z"
