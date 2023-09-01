@@ -8180,6 +8180,22 @@ entries:
   default-apps-vsphere:
   - annotations:
       application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.11.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.11.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.11.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-09-01T08:48:28.200754577Z"
+    description: A Helm chart which defines the pre-installed apps in all Giant Swarm
+      vSphere clusters
+    digest: 7c88d5528bf4b2892128ba7629b52d52e7cefca4d3f20c811896008a75aac3fa
+    home: https://github.com/giantswarm/default-apps-vsphere
+    name: default-apps-vsphere
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.11.0.tgz
+    version: 0.11.0
+  - annotations:
+      application.giantswarm.io/app-type: bundle
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.10.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.10.2.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -8765,4 +8781,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2023-08-31T10:20:08.529832662Z"
+generated: "2023-09-01T08:48:28.199919744Z"
