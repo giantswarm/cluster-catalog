@@ -7764,6 +7764,22 @@ entries:
   default-apps-eks:
   - annotations:
       application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.2.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-10-12T11:33:48.406868276Z"
+    description: A Helm chart for default-apps-eks
+    digest: dbd5ba94e4c344dd0b0fd0017add473df90233248d5fb28811ffc3e1739718e8
+    home: https://github.com/giantswarm/default-apps-eks
+    icon: https://s.giantswarm.io/app-icons/aws/1/dark.svg
+    name: default-apps-eks
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/app-type: bundle
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.1.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.1.2.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -9167,4 +9183,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2023-10-10T10:54:35.550806998Z"
+generated: "2023-10-12T11:33:48.405932279Z"
