@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/network-policies-0.0.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/network-policies-0.0.1.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/network-policies-0.0.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: network-policies-0.0.1.tgz
+dateCreated: '2023-11-02T11:28:09.632212'
+digest: c0af8421b1b65cd34f618f6e162732b76464c750bbbb50397c032816f5996b25
+home: https://github.com/giantswarm/network-policies-app
