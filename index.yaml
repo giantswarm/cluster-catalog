@@ -6487,6 +6487,22 @@ entries:
   default-apps-aws:
   - annotations:
       application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.39.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.39.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.39.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-11-23T14:44:11.36595779Z"
+    description: A Helm chart for default-apps-aws
+    digest: de94f7e1a8a2706281a2da632cf6c672868ceb3173ee35da2cb421cf6e60648d
+    home: https://github.com/giantswarm/default-apps-aws
+    icon: https://s.giantswarm.io/app-icons/aws/1/dark.svg
+    name: default-apps-aws
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.39.0.tgz
+    version: 0.39.0
+  - annotations:
+      application.giantswarm.io/app-type: bundle
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.38.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-aws-0.38.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -9793,4 +9809,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2023-11-23T14:02:35.260960254Z"
+generated: "2023-11-23T14:44:11.364268808Z"
