@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/app-type: bundle
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-cloud-director-0.6.5.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-cloud-director-0.6.5.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-cloud-director-0.6.5.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: default-apps-cloud-director-0.6.5.tgz
+dateCreated: '2023-12-07T18:44:04.526052'
+digest: 414be250b27defedf5a248396a3da2a8c4ad4dc6fd0eecfd9a4341f39da46465
+home: https://github.com/giantswarm/default-apps-cloud-director
+restrictions:
+  compatibleProviders:
+  - cloud-director
