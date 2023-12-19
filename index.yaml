@@ -17,6 +17,26 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/capa-internal-proxy-stack-0.1.0.tgz
     version: 0.1.0
+  cluster:
+  - annotations:
+      application.giantswarm.io/app-type: cluster
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-12-19T15:59:09.241504414Z"
+    description: Giant Swarm cluster chart with provider-independent cluster resources
+    digest: 43ee62c3aa42cfb7c1927a8a6c12e2abfea9e77a3ffd9b40eae71d6adb41549d
+    home: https://github.com/giantswarm/cluster
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: cluster
+    sources:
+    - https://github.com/giantswarm/cluster
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-0.1.0.tgz
+    version: 0.1.0
   cluster-aws:
   - annotations:
       application.giantswarm.io/app-type: cluster
@@ -10347,4 +10367,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2023-12-14T14:10:19.359215133Z"
+generated: "2023-12-19T15:59:09.239856569Z"
