@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-0.2.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-0.2.1.tgz-meta/README.md
+  application.giantswarm.io/team: turtles
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-0.2.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cluster-0.2.1.tgz
+dateCreated: '2024-01-17T13:50:18.472986'
+digest: eddb1de5e6166f843d7777bbf11bbf8e5824ec97f3ff2abfe6ad68cb0080d7d9
+home: https://github.com/giantswarm/cluster
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
