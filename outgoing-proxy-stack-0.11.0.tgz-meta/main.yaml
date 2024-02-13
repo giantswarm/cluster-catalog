@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.11.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.11.0.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.11.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: outgoing-proxy-stack-0.11.0.tgz
+dateCreated: '2024-02-13T15:29:02.335293'
+digest: 773812c5e9113d676ad103a3dc9ae89430f2d57ee8fb6c5fbe82f0c413e48a0f
+home: https://github.com/giantswarm/outgoing-proxy-stack
