@@ -12384,6 +12384,22 @@ entries:
     version: 0.0.1
   outgoing-proxy-stack:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.11.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.11.2.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.11.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-04-02T10:22:12.581301751Z"
+    description: repository to aggregate CRs necessery to create capa internal outgoing
+      proxy cluster
+    digest: 57e51216c9e87957ef26f501e79d8791ef27ff9e5c5a53d58b0cbb681f97898b
+    home: https://github.com/giantswarm/outgoing-proxy-stack
+    name: outgoing-proxy-stack
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.11.2.tgz
+    version: 0.11.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.11.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.11.1.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -12847,4 +12863,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2024-04-02T10:13:47.391187889Z"
+generated: "2024-04-02T10:22:12.580772196Z"
