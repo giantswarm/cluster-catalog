@@ -12414,6 +12414,28 @@ entries:
     version: 0.1.1
   network-policies:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/network-policies-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/network-policies-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/network-policies-0.1.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-04-10T12:59:35.206322995Z"
+    description: CiliumNetworkPolicies and NetworkPolicies that should be installed
+      in target cluster.
+    digest: c3c913fa7337a9e09ca78cb6564d85faf15e5de4cb0b6d1b41cd8cbb555a5d75
+    home: https://github.com/giantswarm/network-policies-app
+    icon: https://s.giantswarm.io/app-icons/kubernetes-netpol/1/light.svg
+    maintainers:
+    - email: team-cabbage@giantswarm.io
+      name: Team Cabbage
+    name: network-policies
+    sources:
+    - https://github.com/giantswarm/network-policies-app
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/network-policies-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/network-policies-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/network-policies-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -13031,4 +13053,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2024-04-09T11:05:38.24024156Z"
+generated: "2024-04-10T12:59:35.205688223Z"
