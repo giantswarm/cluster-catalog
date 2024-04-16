@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/app-type: bundle
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.7.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.7.0.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/default-apps-eks-0.7.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: default-apps-eks-0.7.0.tgz
+dateCreated: '2024-04-16T07:37:12.177509'
+digest: 64d49c36ac05cfcc05e357ec4bc883a925e8152c82f6d04e78ed2d33d837c199
+home: https://github.com/giantswarm/default-apps-eks
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+restrictions:
+  compatibleProviders:
+  - capa
