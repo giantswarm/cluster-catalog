@@ -6,7 +6,7 @@ annotations:
   application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-azure-0.14.0-gs-152d74c.tgz-meta/values.schema.json
 chartApiVersion: v2
 chartFile: cluster-azure-0.14.0-gs-152d74c.tgz
-dateCreated: '2024-06-20T11:38:36.729690'
-digest: 3bf746b6251c2cf152190b39e960fa2710bcc90058cf3ed6c07111d2d85589b5
+dateCreated: '2024-06-20T12:14:24.124716'
+digest: 3ed2810f8e78da94d3aecd0ef93159452a661d2aaa3c8707a73bc7e835398b12
 home: https://github.com/giantswarm/cluster-azure
 icon: https://s.giantswarm.io/app-icons/azure/1/light.svg

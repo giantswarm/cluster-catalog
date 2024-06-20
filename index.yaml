@@ -4061,7 +4061,7 @@ entries:
       application.giantswarm.io/team: phoenix
       application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-azure-0.14.0-gs-152d74c.tgz-meta/values.schema.json
     apiVersion: v2
-    created: "2024-06-20T11:38:46.227110816Z"
+    created: "2024-06-20T12:14:32.882501483Z"
     dependencies:
     - name: cluster
       repository: https://giantswarm.github.io/cluster-catalog
@@ -4071,7 +4071,7 @@ entries:
       version: 0.7.1
     description: A helm chart for creating Cluster API clusters with the Azure infrastructure
       provider (CAPZ).
-    digest: 3bf746b6251c2cf152190b39e960fa2710bcc90058cf3ed6c07111d2d85589b5
+    digest: 3ed2810f8e78da94d3aecd0ef93159452a661d2aaa3c8707a73bc7e835398b12
     home: https://github.com/giantswarm/cluster-azure
     icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
     name: cluster-azure
@@ -14602,4 +14602,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2024-06-20T11:38:46.216614952Z"
+generated: "2024-06-20T12:14:32.873600126Z"
