@@ -1541,6 +1541,33 @@ entries:
     version: 2.0.0
   - annotations:
       application.giantswarm.io/app-type: cluster
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aws-1.3.5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-aws-1.3.5.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-aws-1.3.5.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2024-12-12T13:24:59.757194724Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 1.0.3
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: 516859916acafa95ef6946c033cd448d26f0edd268c9a2d3f3687e2e9f709f6b
+    home: https://github.com/giantswarm/cluster-aws
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: cluster-aws
+    sources:
+    - https://github.com/giantswarm/cluster-aws
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-aws-1.3.5.tgz
+    version: 1.3.5
+  - annotations:
+      application.giantswarm.io/app-type: cluster
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aws-1.3.4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-aws-1.3.4.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -17537,4 +17564,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2024-12-12T08:35:04.886315944Z"
+generated: "2024-12-12T13:24:59.748457866Z"
