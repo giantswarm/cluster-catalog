@@ -17182,6 +17182,25 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/default-apps-vsphere-0.1.1.tgz
     version: 0.1.1
+  kube-vip-cloud-provider:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/kube-vip-cloud-provider-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/kube-vip-cloud-provider-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/kube-vip-cloud-provider-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.0.10
+    created: "2025-02-20T16:41:57.265971605Z"
+    description: A Helm chart for kube-vip cloud provider
+    digest: 7543b1c2cb07615409a9d99ea485fc81b073c92e091542d18d62c0640ab9dd4b
+    icon: https://github.com/kube-vip/kube-vip/raw/main/kube-vip.png
+    maintainers:
+    - name: kube-vip
+    name: kube-vip-cloud-provider
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/kube-vip-cloud-provider-0.1.0.tgz
+    version: 0.1.0
   network-policies:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/network-policies-0.1.1.tgz-meta/main.yaml
@@ -17936,4 +17955,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2025-02-20T10:14:00.941326297Z"
+generated: "2025-02-20T16:41:57.265242998Z"
