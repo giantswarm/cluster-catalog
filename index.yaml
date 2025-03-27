@@ -13863,6 +13863,25 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/cluster-vsphere-0.2.0.tgz
     version: 0.2.0
+  cm-crossplane-resources:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cm-crossplane-resources-0.0.5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cm-crossplane-resources-0.0.5.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cm-crossplane-resources-0.0.5.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-03-27T11:17:23.94293699Z"
+    description: Crossplane Resources for cert-manager
+    digest: 37fe785185ef589bbee51c5b8a24a1d8b9b388261c458bee11f5b1e3744a9c24
+    home: https://github.com/giantswarm/cm-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
+    name: cm-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/cm-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cm-crossplane-resources-0.0.5.tgz
+    version: 0.0.5
   default-apps-aws:
   - annotations:
       application.giantswarm.io/app-type: bundle
@@ -18482,4 +18501,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2025-03-20T14:09:02.783688728Z"
+generated: "2025-03-27T11:17:23.942232749Z"
