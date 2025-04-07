@@ -17,6 +17,25 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/capa-internal-proxy-stack-0.1.0.tgz
     version: 0.1.0
+  cert-manager-crossplane-resources:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cert-manager-crossplane-resources-0.0.6.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cert-manager-crossplane-resources-0.0.6.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cert-manager-crossplane-resources-0.0.6.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-04-07T22:14:55.471073468Z"
+    description: Crossplane Resources for cert-manager
+    digest: 01be032c14b630bae2487c0a2fe66c92967c6e3f1901c0ee6a4ed16bb27123fe
+    home: https://github.com/giantswarm/cert-manager-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
+    name: cert-manager-crossplane-resources
+    sources:
+    - https://github.com/giantswarm/cert-manager-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cert-manager-crossplane-resources-0.0.6.tgz
+    version: 0.0.6
   cilium-crossplane-resources:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cilium-crossplane-resources-0.2.0.tgz-meta/main.yaml
@@ -18528,4 +18547,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2025-04-07T16:48:54.857300851Z"
+generated: "2025-04-07T22:14:55.470299502Z"
