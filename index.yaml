@@ -56,6 +56,22 @@ entries:
     version: 0.0.6
   cilium-crossplane-resources:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cilium-crossplane-resources-0.2.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cilium-crossplane-resources-0.2.1.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cilium-crossplane-resources-0.2.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-04-10T13:24:47.878977216Z"
+    description: Included by cluster-aws to provide certain features that depend on
+      Crossplane values
+    digest: fddab87703645213af47875109b87fe3a7fdf2c176683dc14c9ea03b19564c42
+    home: https://github.com/giantswarm/cilium-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/crossplane/1/dark.svg
+    name: cilium-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cilium-crossplane-resources-0.2.1.tgz
+    version: 0.2.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cilium-crossplane-resources-0.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cilium-crossplane-resources-0.2.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -18565,4 +18581,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2025-04-10T13:24:41.746461585Z"
+generated: "2025-04-10T13:24:47.878535058Z"
