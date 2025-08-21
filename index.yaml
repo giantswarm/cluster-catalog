@@ -143,6 +143,25 @@ entries:
     version: 2.6.0
   - annotations:
       application.giantswarm.io/app-type: cluster
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-2.5.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-2.5.1.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-2.5.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-08-21T15:48:10.584421798Z"
+    description: Giant Swarm cluster chart with provider-independent cluster resources
+    digest: 3f5bfe11b8b57d055f02f9b465f1500b66f2cc035dc617196d2e7b3b25fdc312
+    home: https://github.com/giantswarm/cluster
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: cluster
+    sources:
+    - https://github.com/giantswarm/cluster
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-2.5.1.tgz
+    version: 2.5.1
+  - annotations:
+      application.giantswarm.io/app-type: cluster
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-2.5.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-2.5.0.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -19326,4 +19345,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2025-08-21T15:31:15.578940938Z"
+generated: "2025-08-21T15:48:10.578690937Z"
