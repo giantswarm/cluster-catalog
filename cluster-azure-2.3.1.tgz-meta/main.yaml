@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-azure-2.3.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-azure-2.3.1.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-azure-2.3.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cluster-azure-2.3.1.tgz
+dateCreated: '2025-09-02T13:26:42.305874Z'
+digest: 4f9a55fe8258a236b746e11c3c1085ec99c1cca2951ac6c72fbcc405772a8bec
+home: https://github.com/giantswarm/cluster-azure
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
