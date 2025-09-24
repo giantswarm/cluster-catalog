@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-3.0.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-3.0.0.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-3.0.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cluster-vsphere-3.0.0.tgz
+dateCreated: '2025-09-24T17:50:27.756374Z'
+digest: b0516cae6c36eac75a3f0a08b1e67e3e0eaa4ffb80b3a8d54ce9ab9d61e399b3
+home: https://github.com/giantswarm/cluster-vsphere
+icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+restrictions:
+  compatibleProviders:
+  - vsphere
