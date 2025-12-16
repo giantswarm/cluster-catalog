@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/team: turtles
+chartApiVersion: v2
+chartFile: cluster-5.1.1.tgz
+dateCreated: '2025-12-16T23:04:46.986669Z'
+digest: 5606338c3f395e0f9fd70453bedcc762aab495f1cb6d2aef64d074385eecb90b
+home: https://github.com/giantswarm/cluster
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
