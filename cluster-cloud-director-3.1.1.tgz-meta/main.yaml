@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: rocket
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/logo_light.png
+chartApiVersion: v2
+chartFile: cluster-cloud-director-3.1.1.tgz
+dateCreated: '2025-12-17T16:20:26.676527Z'
+digest: 692d35b86a086a4299b996285a8bbebaf6ebcdbb5dfe9c8b7bef99c7feb9605f
+home: https://github.com/giantswarm/cluster-cloud-director
+icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
+restrictions:
+  compatibleProviders:
+  - cloud-director
