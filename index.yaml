@@ -14822,6 +14822,39 @@ entries:
     version: 0.1.1
   cluster-vsphere:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-4.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v4.1.1/README.md
+      io.giantswarm.application.restrictions.compatible-providers: vsphere
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v4.1.1/helm/cluster-vsphere/values.schema.json
+    apiVersion: v2
+    created: "2025-12-17T17:08:39.775667878Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 5.1.1
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the vSphere provider
+      (CAPV).
+    digest: 55f75a7a181db91107ffad1cf1fcb0cd4aacbee0ab697e65d4296eb18a5e041a
+    home: https://github.com/giantswarm/cluster-vsphere
+    icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+    keywords:
+    - capv
+    - vsphere
+    - vmware
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-vsphere
+    sources:
+    - https://github.com/giantswarm/cluster-vsphere
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-vsphere-4.1.1.tgz
+    version: 4.1.1
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-4.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v4.1.0/README.md
       io.giantswarm.application.restrictions.compatible-providers: vsphere
@@ -21732,4 +21765,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/outgoing-proxy-stack-0.1.2.tgz
     version: 0.1.2
-generated: "2025-12-17T16:20:31.341625119Z"
+generated: "2025-12-17T17:08:39.765017702Z"
