@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: network-policies-0.1.2.tgz
+dateCreated: '2026-01-06T13:54:34.706923Z'
+digest: ba974cdbdf7254a770999424ffba9c781a163886a663e4436c6e6036d9c3003c
+home: https://github.com/giantswarm/network-policies-app
+icon: https://s.giantswarm.io/app-icons/kubernetes-netpol/1/light.svg
