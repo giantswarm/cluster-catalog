@@ -15242,6 +15242,39 @@ entries:
     version: 0.1.1
   cluster-vsphere:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-4.1.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v4.1.3/README.md
+      io.giantswarm.application.restrictions.compatible-providers: vsphere
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v4.1.3/helm/cluster-vsphere/values.schema.json
+    apiVersion: v2
+    created: "2026-02-18T14:06:05.275641928Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 5.1.2
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the vSphere provider
+      (CAPV).
+    digest: 0764294ee727bfc87287995fea18561aa47dc0ba8feb24b7131e81aaff305500
+    home: https://github.com/giantswarm/cluster-vsphere
+    icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+    keywords:
+    - capv
+    - vsphere
+    - vmware
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-vsphere
+    sources:
+    - https://github.com/giantswarm/cluster-vsphere
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-vsphere-4.1.3.tgz
+    version: 4.1.3
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-4.1.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v4.1.2/README.md
       io.giantswarm.application.restrictions.compatible-providers: vsphere
@@ -22291,4 +22324,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-aws-34.0.0.tgz
     version: 34.0.0
-generated: "2026-02-18T14:03:19.065768727Z"
+generated: "2026-02-18T14:06:05.26290412Z"
