@@ -22360,4 +22360,33 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-aws-34.0.0.tgz
     version: 34.0.0
-generated: "2026-02-18T14:37:34.092891817Z"
+  release-eks:
+  - annotations:
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-eks-34.0.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-eks/refs/tags/v34.0.0/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws,capa
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-eks/refs/tags/v34.0.0/helm/release-chart/values.schema.json
+    apiVersion: v2
+    created: "2026-02-25T09:32:20.744047474Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 4.0.2
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API EKS clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: 174bebd1f14de9ca49eee2d995f704fd030ac9f68ab0f82a405676f04389ecf4
+    home: https://github.com/giantswarm/cluster-eks
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: release-eks
+    sources:
+    - https://github.com/giantswarm/cluster-eks
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-eks-34.0.0.tgz
+    version: 34.0.0
+generated: "2026-02-25T09:32:20.736642826Z"

@@ -1,0 +1,530 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/giantswarm/releases/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/giantswarm/releases/tree/master)
+
+# Giant Swarm Workload Cluster Releases
+
+This repository contains workload cluster release notes and changelogs.
+
+Workload cluster releases can be in
+different states, namely `active`, `deprecated` and `wip`. With pull requests
+merged to the `master` branch, workload cluster releases get automatically deployed
+to all Giant Swarm installations.
+
+## AWS
+
+- v34
+  - v34.0
+    - [v34.0.0](https://github.com/giantswarm/releases/tree/master/capa/v34.0.0)
+
+- v33
+  - v33.1
+    - [v33.1.4](https://github.com/giantswarm/releases/tree/master/capa/v33.1.4)
+    - [v33.1.3](https://github.com/giantswarm/releases/tree/master/capa/archived/v33.1.3)
+    - [v33.1.2](https://github.com/giantswarm/releases/tree/master/capa/archived/v33.1.2)
+    - [v33.1.1](https://github.com/giantswarm/releases/tree/master/capa/v33.1.1)
+    - [v33.1.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v33.1.0)
+  - v33.0
+    - [v33.0.1](https://github.com/giantswarm/releases/tree/master/capa/v33.0.1)
+    - [v33.0.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v33.0.0)
+
+- v32
+  - v32.2
+    - [v32.2.0](https://github.com/giantswarm/releases/tree/master/capa/v32.2.0)
+  - v32.1
+    - [v32.1.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v32.1.0)
+  - v32.0
+    - [v32.0.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v32.0.0)
+
+- v31
+  - v31.1
+    - [v31.1.2](https://github.com/giantswarm/releases/tree/master/capa/v31.1.2)
+    - [v31.1.1](https://github.com/giantswarm/releases/tree/master/capa/v31.1.1)
+    - [v31.1.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v31.1.0)
+  - v31.0
+    - [v31.0.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v31.0.0)
+
+- v30
+  - v30.1
+    - [v30.1.5](https://github.com/giantswarm/releases/tree/master/capa/archived/v30.1.5)
+    - [v30.1.4](https://github.com/giantswarm/releases/tree/master/capa/archived/v30.1.4)
+    - [v30.1.3](https://github.com/giantswarm/releases/tree/master/capa/archived/v30.1.3)
+    - [v30.1.2](https://github.com/giantswarm/releases/tree/master/capa/archived/v30.1.2)
+    - [v30.1.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v30.1.1)
+    - [v30.1.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v30.1.0)
+  - v30.0
+    - [v30.0.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v30.0.0)
+
+- v29
+  - v29.6
+    - [v29.6.4](https://github.com/giantswarm/releases/tree/master/capa/archived/v29.6.4)
+    - [v29.6.3](https://github.com/giantswarm/releases/tree/master/capa/archived/v29.6.3)
+    - [v29.6.2](https://github.com/giantswarm/releases/tree/master/capa/archived/v29.6.2)
+    - [v29.6.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v29.6.1)
+    - [v29.6.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v29.6.0)
+  - v29.5
+    - [v29.5.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v29.5.0)
+  - v29.4
+    - [v29.4.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v29.4.0)
+  - v29.3
+    - [v29.3.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v29.3.1)
+    - [v29.3.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v29.3.0)
+  - v29.2
+    - [v29.2.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v29.2.0)
+  - v29.1
+    - [v29.1.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v29.1.0)
+  - v29.0
+    - [v29.0.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v29.0.0)
+
+- v28
+  - v28.5
+    - [v28.5.5](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.5.5)
+    - [v28.5.4](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.5.4)
+    - [v28.5.3](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.5.3)
+    - [v28.5.2](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.5.2)
+    - [v28.5.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.5.1)
+    - [v28.5.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.5.0)
+  - v28.4
+    - [v28.4.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.4.0)
+  - v28.3
+    - [v28.3.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.3.0)
+  - v28.2
+    - [v28.2.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.2.0)
+  - v28.1
+    - [v28.1.2](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.1.2)
+    - [v28.1.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.1.1)
+    - [v28.1.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.1.0)
+  - v28.0
+    - [v28.0.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.0.1)
+    - [v28.0.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v28.0.0)
+
+- v27
+  - v27.5
+    - [v27.5.4](https://github.com/giantswarm/releases/tree/master/capa/archived/v27.5.4)
+    - [v27.5.3](https://github.com/giantswarm/releases/tree/master/capa/archived/v27.5.3)
+    - [v27.5.2](https://github.com/giantswarm/releases/tree/master/capa/archived/v27.5.2)
+    - [v27.5.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v27.5.1)
+    - [v27.5.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v27.5.0)
+  - v27.4
+    - [v27.4.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v27.4.0)
+  - v27.3
+    - [v27.3.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v27.3.0)
+  - v27.2
+    - [v27.2.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v27.2.0)
+  - v27.1
+    - [v27.1.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v27.1.1)
+    - [v27.1.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v27.1.0)
+  - v27.0
+    - [v27.0.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v27.0.0)
+
+- v26
+  - v26.4
+    - [v26.4.4](https://github.com/giantswarm/releases/tree/master/capa/archived/v26.4.4)
+    - [v26.4.3](https://github.com/giantswarm/releases/tree/master/capa/archived/v26.4.3)
+    - [v26.4.2](https://github.com/giantswarm/releases/tree/master/capa/archived/v26.4.2)
+    - [v26.4.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v26.4.1)
+    - [v26.4.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v26.4.0)
+  - v26.3
+    - [v26.3.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v26.3.0)
+  - v26.2
+    - [v26.2.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v26.2.0)
+  - v26.1
+    - [v26.1.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v26.1.1)
+    - [v26.1.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v26.1.0)
+  - v26.0
+    - [v26.0.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v26.0.0)
+
+- v25
+  - v25.5
+    - [v25.5.4](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.5.4)
+    - [v25.5.3](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.5.3)
+    - [v25.5.2](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.5.2)
+    - [v25.5.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.5.1)
+    - [v25.5.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.5.0)
+  - v25.4
+    - [v25.4.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.4.0)
+  - v25.3
+    - [v25.3.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.3.0)
+  - v25.2
+    - [v25.2.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.2.1)
+    - [v25.2.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.2.0)
+  - v25.1
+    - [v25.1.3](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.1.3)
+    - [v25.1.2](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.1.2)
+    - [v25.1.1](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.1.1)
+    - [v25.1.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.1.0)
+  - v25.0
+    - [v25.0.0](https://github.com/giantswarm/releases/tree/master/capa/archived/v25.0.0)
+
+## Azure
+
+- v34
+  - v34.0
+    - [v34.0.0](https://github.com/giantswarm/releases/tree/master/azure/v34.0.0)
+
+- v33
+  - v33.1
+    - [v33.1.1](https://github.com/giantswarm/releases/tree/master/azure/v33.1.1)
+    - [v33.1.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v33.1.0)
+  - v33.0
+    - [v33.0.1](https://github.com/giantswarm/releases/tree/master/azure/v33.0.1)
+    - [v33.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v33.0.0)
+
+- v32
+  - v32.1
+    - [v32.1.0](https://github.com/giantswarm/releases/tree/master/azure/v32.1.0)
+  - v32.0
+    - [v32.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v32.0.0)
+
+- v31
+  - v31.1
+    - [v31.1.2](https://github.com/giantswarm/releases/tree/master/azure/archived/v31.1.2)
+    - [v31.1.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v31.1.1)
+
+- v30
+  - v30.1
+    - [v30.1.5](https://github.com/giantswarm/releases/tree/master/azure/archived/v30.1.5)
+    - [v30.1.4](https://github.com/giantswarm/releases/tree/master/azure/archived/v30.1.4)
+
+- v29
+  - v29.5
+    - [v29.5.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v29.5.1)
+    - [v29.5.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v29.5.0)
+  - v29.4
+    - [v29.4.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v29.4.0)
+  - v29.3
+    - [v29.3.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v29.3.0)
+  - v29.2
+    - [v29.2.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v29.2.0)
+  - v29.1
+    - [v29.1.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v29.1.0)
+  - v29.0
+    - [v29.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v29.0.0)
+
+- v28
+  - v28.0
+    - [v28.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v28.0.0)
+
+- v27
+  - v27.0
+    - [v27.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v27.0.0)
+
+- v26
+  - v26.0
+    - [v26.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v26.0.0)
+
+- v25
+  - v25.0
+    - [v25.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v25.0.0)
+
+- v20
+  - v20.0
+    - [v20.0.0-beta1](https://github.com/giantswarm/releases/tree/master/azure/archived/v20.0.0-beta1)
+
+- v19
+  - v19.1
+    - [v19.1.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v19.1.0)
+
+  - v19.0
+    - [v19.0.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v19.0.1)
+    - [v19.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v19.0.0)
+
+- v18
+  - v18.0
+    - [v18.0.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v18.0.1)
+    - [v18.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v18.0.0)
+
+- v17
+  - v17.2
+    - [v17.2.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v17.2.0)
+
+  - v17.1
+    - [v17.1.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v17.1.0)
+
+  - v17.0
+    - [v17.0.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v17.0.1)
+    - [v17.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v17.0.0)
+    - [v17.0.0-alpha1](https://github.com/giantswarm/releases/tree/master/azure/archived/v17.0.0-alpha1)
+
+- v16
+  - v16.1
+    - [v16.1.3](https://github.com/giantswarm/releases/tree/master/azure/archived/v16.1.3)
+    - [v16.1.2](https://github.com/giantswarm/releases/tree/master/azure/archived/v16.1.2)
+    - [v16.1.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v16.1.1)
+    - [v16.1.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v16.1.0)
+  - v16.0
+    - [v16.0.2](https://github.com/giantswarm/releases/tree/master/azure/archived/v16.0.2)
+    - [v16.0.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v16.0.1)
+    - [v16.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v16.0.0)
+
+- v15
+  - v15.1
+    - [v15.1.3](https://github.com/giantswarm/releases/tree/master/azure/archived/v15.1.3)
+    - [v15.1.2](https://github.com/giantswarm/releases/tree/master/azure/archived/v15.1.2)
+    - [v15.1.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v15.1.1)
+    - [v15.1.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v15.1.0)
+  - v15.0
+    - [v15.0.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v15.0.1)
+    - [v15.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v15.0.0)
+    - [v15.0.0-beta2](https://github.com/giantswarm/releases/tree/master/azure/archived/v15.0.0-beta2)
+    - [v15.0.0-beta1](https://github.com/giantswarm/releases/tree/master/azure/archived/v15.0.0-beta1)
+
+- v14
+  - v14.1
+    - [v14.1.7](https://github.com/giantswarm/releases/tree/master/azure/archived/v14.1.7)
+    - [v14.1.6](https://github.com/giantswarm/releases/tree/master/azure/archived/v14.1.6)
+    - [v14.1.5](https://github.com/giantswarm/releases/tree/master/azure/archived/v14.1.5)
+    - [v14.1.4](https://github.com/giantswarm/releases/tree/master/azure/archived/v14.1.4)
+    - [v14.1.3](https://github.com/giantswarm/releases/tree/master/azure/archived/v14.1.3)
+    - [v14.1.2](https://github.com/giantswarm/releases/tree/master/azure/archived/v14.1.2)
+    - [v14.1.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v14.1.1)
+    - [v14.1.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v14.1.0)
+  - v14.0
+    - [v14.0.2](https://github.com/giantswarm/releases/tree/master/azure/archived/v14.0.2)
+    - [v14.0.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v14.0.1)
+    - [v14.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v14.0.0)
+
+- v13
+  - v13.1
+    - [v13.1.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v13.1.1)
+    - [v13.1.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v13.1.0)
+  - v13.0
+    - [v13.0.2](https://github.com/giantswarm/releases/tree/master/azure/archived/v13.0.2)
+    - [v13.0.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v13.0.1)
+    - [v13.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v13.0.0)
+
+- v12
+  - v12.1
+    - [v12.1.2](https://github.com/giantswarm/releases/tree/master/azure/archived/v12.1.2)
+    - [v12.1.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v12.1.1)
+    - [v12.1.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v12.1.0)
+  - v12.0
+    - [v12.0.2](https://github.com/giantswarm/releases/tree/master/azure/archived/v12.0.2)
+    - [v12.0.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v12.0.1)
+    - [v12.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v12.0.0)
+
+- v11
+  - v11.4
+    - [v11.4.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.4.0)
+  - v11.3
+    - [v11.3.3](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.3.3)
+    - [v11.3.2](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.3.2)
+    - [v11.3.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.3.1)
+    - [v11.3.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.3.0)
+  - v11.2
+    - [v11.2.6](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.2.6)
+    - [v11.2.5](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.2.5)
+    - [v11.2.4](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.2.4)
+    - [v11.2.3](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.2.3)
+    - [v11.2.2](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.2.2)
+    - [v11.2.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.2.1)
+    - [v11.2.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.2.0)
+  - v11.1
+    - [v11.1.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.1.0)
+  - v11.0
+    - [v11.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v11.0.0)
+
+- v9
+  - v9.0
+    - [v9.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v9.0.0)
+
+- v8
+  - v8.4
+    - [v8.4.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v8.4.1)
+    - [v8.4.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v8.4.0)
+  - v8.3
+    - [v8.3.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v8.3.0)
+  - v8.2
+    - [v8.2.1](https://github.com/giantswarm/releases/tree/master/azure/archived/v8.2.1)
+    - [v8.2.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v8.2.0)
+  - v8.0
+    - [v8.0.0](https://github.com/giantswarm/releases/tree/master/azure/archived/v8.0.0)
+
+## vSphere
+
+- v34
+  - v34.0
+    - [v34.0.0](https://github.com/giantswarm/releases/tree/master/vsphere/v34.0.0)
+
+- v33
+  - v33.1
+    - [v33.1.1](https://github.com/giantswarm/releases/tree/master/vsphere/v33.1.1)
+    - [v33.1.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v33.1.0)
+  - v33.0
+    - [v33.0.1](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v33.0.1)
+    - [v33.0.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v33.0.0)
+
+- v32
+  - v32.1
+    - [v32.1.0](https://github.com/giantswarm/releases/tree/master/vsphere/v32.1.0)
+  - v32.0
+    - [v32.0.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v32.0.0)
+
+- v31
+  - v31.1
+    - [v31.1.1](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v31.1.1)
+    - [v31.1.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v31.1.0)
+  - v31.0
+    - [v31.0.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v31.0.0)
+
+- v30
+  - v30.1
+    - [v30.1.4](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v30.1.4)
+    - [v30.1.3](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v30.1.3)
+    - [v30.1.2](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v30.1.2)
+    - [v30.1.1](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v30.1.1)
+    - [v30.1.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v30.1.0)
+  - v30.0
+    - [v30.0.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v30.0.0)
+
+- v29
+  - v29.3
+    - [v29.3.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v29.3.0)
+  - v29.2
+    - [v29.2.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v29.2.0)
+  - v29.1
+    - [v29.1.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v29.1.0)
+  - v29.0
+    - [v29.0.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v29.0.0)
+
+- v28
+  - v28.0
+    - [v28.0.1](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v28.0.1)
+    - [v28.0.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v28.0.0)
+
+- v27
+  - v27.0
+    - [v27.0.1](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v27.0.1)
+    - [v27.0.0](https://github.com/giantswarm/releases/tree/master/vsphere/archived/v27.0.0)
+
+## VMware Cloud Director
+
+- v34
+  - v34.0
+    - [v34.0.0](https://github.com/giantswarm/releases/tree/master/cloud-director/v34.0.0)
+
+- v33
+  - v33.2
+    - [v33.2.0](https://github.com/giantswarm/releases/tree/master/cloud-director/v33.2.0)
+  - v33.1
+    - [v33.1.1](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v33.1.1)
+    - [v33.1.0](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v33.1.0)
+  - v33.0
+    - [v33.0.1](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v33.0.1)
+    - [v33.0.0](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v33.0.0)
+
+- v32
+  - v32.1
+    - [v32.1.0](https://github.com/giantswarm/releases/tree/master/cloud-director/v32.1.0)
+  - v32.0
+    - [v32.0.0](https://github.com/giantswarm/releases/tree/master/cloud-director/v32.0.0)
+
+- v31
+  - v31.1
+    - [v31.1.1](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v31.1.1)
+    - [v31.1.0](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v31.1.0)
+  - v31.0
+    - [v31.0.0](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v31.0.0)
+
+- v30
+  - v30.1
+    - [v30.1.4](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v30.1.4)
+    - [v30.1.3](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v30.1.3)
+    - [v30.1.2](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v30.1.2)
+    - [v30.1.1](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v30.1.1)
+    - [v30.1.0](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v30.1.0)
+  - v30.0
+    - [v30.0.0](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v30.0.0)
+
+- v29
+  - v29.3
+    - [v29.3.2](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v29.3.2)
+    - [v29.3.1](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v29.3.1)
+    - [v29.3.0](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v29.3.0)
+  - v29.2
+    - [v29.2.1](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v29.2.1)
+    - [v29.2.0](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v29.2.0)
+  - v29.1
+    - [v29.1.1](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v29.1.1)
+    - [v29.1.0](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v29.1.0)
+  - v29.0
+    - [v29.0.1](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v29.0.1)
+    - [v29.0.0](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v29.0.0)
+
+- v28
+  - v28.0
+    - [v28.0.1](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v28.0.1)
+    - [v28.0.0](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v28.0.0)
+
+- v27
+  - v27.0
+    - [v27.0.0](https://github.com/giantswarm/releases/tree/master/cloud-director/archived/v27.0.0)
+
+## EKS
+
+- v34
+  - v34.0
+    - [v34.0.0](https://github.com/giantswarm/releases/tree/master/eks/v34.0.0)
+
+- v33
+  - v33.0
+    - [v33.0.0](https://github.com/giantswarm/releases/tree/master/eks/v33.0.0)
+
+- v32
+  - v32.1
+    - [v32.1.0](https://github.com/giantswarm/releases/tree/master/eks/v32.1.0)
+  - v32.0
+    - [v32.0.0](https://github.com/giantswarm/releases/tree/master/eks/archived/v32.0.0)
+
+# PR Commands
+
+## Summarize Upstream Changes
+
+To generate an AI-powered summary of upstream Kubernetes and Flatcar breaking changes, deprecations, and urgent upgrade notes, add a comment with:
+
+`/summarize-ai`
+
+This will:
+
+* Extract Kubernetes and Flatcar version ranges from the release README.md
+* Fetch upstream changelogs (Kubernetes urgent upgrade notes + deprecations, Flatcar changes)
+* Summarize the most impactful changes using AI
+* Post a comment with a suggested description and a ready-to-use `/update-readme` command
+
+The summary is only generated when there is a **minor version change** in Kubernetes or Flatcar. Patch-only upgrades are skipped.
+
+To target a specific provider:
+
+`/summarize-ai --provider aws`
+
+## Workload Cluster End-to-End Tests
+
+To trigger the Workload Cluster End-to-End tests for each new Release added in a PR, add a comment with the following:
+
+`/run releases-test-suites`
+
+This will automatically trigger tests for all new releases detected in the PR and will run them against the appropriate `standard` and `upgrade` test suites for the provider.
+
+If you need to run tests for a specific Release (from the PR) or a different test suite, you can do so with the two following, optional parameters:
+
+* `TARGET_SUITES` - a comma separated list of test suites to trigger (e.g. `./providers/capa/standard`)
+* `TARGET_RELEASES` - a comma separates list of Releases to trigger from the PR (e.g. `aws-25.0.0-example.1`)
+
+The `upgrade` tests will first install a cluster using the latest previously published release and then upgrade to using the release found in the PR. If you need to override the starting Release version (to test upgrading from an earlier release) you can do so by setting the `PREVIOUS_RELEASE` parameter on the trigger comment (e.g. `/run releases-test-suites PREVIOUS_RELEASE=28.1.0`)
+
+The workload cluster E2E tests are enforced by our PR gatekeeper to ensure they are passing before PRs are allowed to be merged.
+
+## Conformance Tests
+
+To trigger the CNCF Conformance tests for a new Release added in a PR, add a comment with something similar to the following:
+
+`/run conformance-tests PROVIDER=capa RELEASE_VERSION=29.1.0`
+
+The following parameters are required:
+
+* `PROVIDER` - the name of the provider the release is for
+* `RELEASE_VERSION` - the version of the Release to test from the PR
+
+Please note that these tests take roughly 2 hours to run, so best to only run once all other changes are ready.
+
+Currently the conformance tests can only run against a single Release. If you have more than one Release to test in your PR you can comment multiple times with the parameters changed, but be aware that only a single GitHub check will be added to the PR so you will need to manually confirm each has passed in Tekton.
+
+Currently the conformance tests are not enforced by our PR gatekeeper.
