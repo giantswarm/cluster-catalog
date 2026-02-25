@@ -7282,6 +7282,33 @@ entries:
   cluster-azure:
   - annotations:
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-azure-5.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v5.3.0/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v5.3.0/helm/cluster-azure/values.schema.json
+    apiVersion: v2
+    created: "2026-02-25T19:21:36.454969652Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 5.1.2
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the Azure infrastructure
+      provider (CAPZ).
+    digest: 621432ee464ec25eac1f2cd4cc26e1a2362beb23b226c58f4b2717c45a4681b9
+    home: https://github.com/giantswarm/cluster-azure
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    name: cluster-azure
+    sources:
+    - https://github.com/giantswarm/cluster-azure
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-azure-5.3.0.tgz
+    version: 5.3.0
+  - annotations:
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-azure-5.2.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v5.2.1/README.md
       io.giantswarm.application.team: phoenix
@@ -22389,4 +22416,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-eks-34.0.0.tgz
     version: 34.0.0
-generated: "2026-02-25T09:32:20.736642826Z"
+generated: "2026-02-25T19:21:36.441855882Z"
