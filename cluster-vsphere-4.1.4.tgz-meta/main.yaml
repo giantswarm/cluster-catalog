@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: rocket
+chartApiVersion: v2
+chartFile: cluster-vsphere-4.1.4.tgz
+dateCreated: '2026-02-27T12:11:19.070262Z'
+digest: 22f7773f47ea578bf31ed54f76939460931155552c2509e58eae19a19180c434
+home: https://github.com/giantswarm/cluster-vsphere
+icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+restrictions:
+  compatibleProviders:
+  - vsphere
