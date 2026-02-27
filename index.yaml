@@ -15406,6 +15406,39 @@ entries:
     version: 0.1.1
   cluster-vsphere:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-5.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v5.1.0/README.md
+      io.giantswarm.application.restrictions.compatible-providers: vsphere
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v5.1.0/helm/cluster-vsphere/values.schema.json
+    apiVersion: v2
+    created: "2026-02-27T11:33:39.399877118Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 5.3.0
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the vSphere provider
+      (CAPV).
+    digest: 721a1202b0620afd2c32810f6be873f6977c856db2cba890e6bec7afc95fc047
+    home: https://github.com/giantswarm/cluster-vsphere
+    icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+    keywords:
+    - capv
+    - vsphere
+    - vmware
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-vsphere
+    sources:
+    - https://github.com/giantswarm/cluster-vsphere
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-vsphere-5.1.0.tgz
+    version: 5.1.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-5.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v5.0.0/README.md
       io.giantswarm.application.restrictions.compatible-providers: vsphere
@@ -22550,4 +22583,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-eks-34.0.0.tgz
     version: 34.0.0
-generated: "2026-02-27T11:33:16.66896651Z"
+generated: "2026-02-27T11:33:39.392134055Z"
