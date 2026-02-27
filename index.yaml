@@ -15406,6 +15406,39 @@ entries:
     version: 0.1.1
   cluster-vsphere:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-5.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v5.1.1/README.md
+      io.giantswarm.application.restrictions.compatible-providers: vsphere
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v5.1.1/helm/cluster-vsphere/values.schema.json
+    apiVersion: v2
+    created: "2026-02-27T14:21:53.00934344Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 5.3.0
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the vSphere provider
+      (CAPV).
+    digest: 12b63aef2cdd55cdc82afce01643aa2cb978a8f360146be3081b8d713e1e9b05
+    home: https://github.com/giantswarm/cluster-vsphere
+    icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+    keywords:
+    - capv
+    - vsphere
+    - vmware
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-vsphere
+    sources:
+    - https://github.com/giantswarm/cluster-vsphere
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-vsphere-5.1.1.tgz
+    version: 5.1.1
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-vsphere-5.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v5.1.0/README.md
       io.giantswarm.application.restrictions.compatible-providers: vsphere
@@ -22616,4 +22649,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-eks-34.0.0.tgz
     version: 34.0.0
-generated: "2026-02-27T12:11:23.557767501Z"
+generated: "2026-02-27T14:21:53.002448424Z"
