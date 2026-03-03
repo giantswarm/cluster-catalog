@@ -22732,6 +22732,34 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-aws-34.0.0.tgz
     version: 34.0.0
+  release-azure:
+  - annotations:
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-azure-34.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v34.1.0/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v34.1.0/helm/release-chart/values.schema.json
+    apiVersion: v2
+    created: "2026-03-03T21:26:15.310513954Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 5.1.2
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the Azure infrastructure
+      provider (CAPZ).
+    digest: 49a08abdb538d22c1a3ffd15180d4894e73d50c0bd4b6bd9c60055929a30103e
+    home: https://github.com/giantswarm/cluster-azure
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    name: release-azure
+    sources:
+    - https://github.com/giantswarm/cluster-azure
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-azure-34.1.0.tgz
+    version: 34.1.0
   release-eks:
   - annotations:
       io.giantswarm.application.app-type: cluster
@@ -22761,4 +22789,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-eks-34.0.0.tgz
     version: 34.0.0
-generated: "2026-03-03T21:26:02.446031224Z"
+generated: "2026-03-03T21:26:15.301760755Z"
