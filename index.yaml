@@ -2212,6 +2212,23 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/cluster-0.1.0.tgz
     version: 0.1.0
+  cluster-autoscaler-crossplane-resources:
+  - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-autoscaler-crossplane-resources-1.0.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-autoscaler-crossplane-resources/refs/tags/v1.0.0/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-autoscaler-crossplane-resources/refs/tags/v1.0.0/helm/cluster-autoscaler-crossplane-resources/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    apiVersion: v2
+    created: "2026-03-16T15:25:33.149825887Z"
+    description: Crossplane Resources for Cluster Autoscaler
+    digest: 0e7bfaece066c0e91751ea9edf0e7ef2def547ac417e6324e9c34b931f8f9848
+    home: https://github.com/giantswarm/cluster-autoscaler-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: cluster-autoscaler-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-autoscaler-crossplane-resources-1.0.0.tgz
+    version: 1.0.0
   cluster-aws:
   - annotations:
       io.giantswarm.application.app-type: cluster
@@ -23177,4 +23194,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.1.0.tgz
     version: 34.1.0
-generated: "2026-03-16T07:55:34.209014501Z"
+generated: "2026-03-16T15:25:33.149345796Z"

@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: tenet
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+chartApiVersion: v2
+chartFile: cluster-autoscaler-crossplane-resources-1.0.0.tgz
+dateCreated: '2026-03-16T15:25:28.407260Z'
+digest: 0e7bfaece066c0e91751ea9edf0e7ef2def547ac417e6324e9c34b931f8f9848
+home: https://github.com/giantswarm/cluster-autoscaler-crossplane-resources
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
