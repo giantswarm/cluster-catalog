@@ -23926,4 +23926,37 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.1.0.tgz
     version: 34.1.0
-generated: "2026-04-09T14:28:25.621094493Z"
+  - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-4fe4aea5b08879dd127711d89bb93f3bc80578f2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/4fe4aea5b08879dd127711d89bb93f3bc80578f2/README.md
+      io.giantswarm.application.restrictions.compatible-providers: vsphere
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/4fe4aea5b08879dd127711d89bb93f3bc80578f2/helm/release-chart/values.schema.json
+    apiVersion: v2
+    created: "2026-04-09T14:35:37.237907307Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 5.1.2
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the vSphere provider
+      (CAPV).
+    digest: a0ac2cedf176add2a9b64cfe9727b6ee46301fef736231ebce5e468ea1ca0365
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+    keywords:
+    - capv
+    - vsphere
+    - vmware
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: release-vsphere
+    sources:
+    - https://github.com/giantswarm/cluster-vsphere
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-4fe4aea5b08879dd127711d89bb93f3bc80578f2.tgz
+    version: 34.0.1-4fe4aea5b08879dd127711d89bb93f3bc80578f2
+generated: "2026-04-09T14:35:37.229979548Z"
