@@ -24324,6 +24324,39 @@ entries:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.2.0-37bdd5e21ae29e1bfa428e3423fc7c5b5cbe2d6d.tgz
     version: 34.2.0-37bdd5e21ae29e1bfa428e3423fc7c5b5cbe2d6d
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-vsphere-34.2.0-25fe992e6cbd24f2f2c09b103eb70a74e01a0071.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/25fe992e6cbd24f2f2c09b103eb70a74e01a0071/README.md
+      io.giantswarm.application.restrictions.compatible-providers: vsphere
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/25fe992e6cbd24f2f2c09b103eb70a74e01a0071/helm/release-chart/values.schema.json
+    apiVersion: v2
+    created: "2026-04-13T09:43:46.550011655Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 6.3.0
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the vSphere provider
+      (CAPV).
+    digest: c64e0fa7212fe04f4d2d08382a3c3395f7204775f1812b5fc2c1ad0ac3730ef2
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+    keywords:
+    - capv
+    - vsphere
+    - vmware
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: release-vsphere
+    sources:
+    - https://github.com/giantswarm/cluster-vsphere
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.2.0-25fe992e6cbd24f2f2c09b103eb70a74e01a0071.tgz
+    version: 34.2.0-25fe992e6cbd24f2f2c09b103eb70a74e01a0071
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-vsphere-34.2.0-2229d7f74b2617045ef6272f49470704c2e54005.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/2229d7f74b2617045ef6272f49470704c2e54005/README.md
       io.giantswarm.application.restrictions.compatible-providers: vsphere
@@ -24653,4 +24686,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-04a866700e36aa908931dc942ba52607b9a14919.tgz
     version: 34.0.1-04a866700e36aa908931dc942ba52607b9a14919
-generated: "2026-04-13T09:42:48.188307502Z"
+generated: "2026-04-13T09:43:46.541188434Z"
