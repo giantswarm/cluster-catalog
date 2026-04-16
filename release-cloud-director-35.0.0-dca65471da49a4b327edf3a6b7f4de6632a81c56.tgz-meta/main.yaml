@@ -7,7 +7,7 @@ annotations:
   ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/logo_light.png
 chartApiVersion: v2
 chartFile: release-cloud-director-35.0.0-dca65471da49a4b327edf3a6b7f4de6632a81c56.tgz
-dateCreated: '2026-04-16T07:50:59.904561Z'
-digest: 3b32f2498bf65e0cc33d00cac5857f06f21e2487e7ab4d31014de4cf0ce1eff2
+dateCreated: '2026-04-16T07:53:12.445949Z'
+digest: 4ab3710c5fa35d4f5d772190f763ef0f15d28c35c18aa7a85535515bbb8ee0dc
 home: https://github.com/giantswarm/releases
 icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
