@@ -431,6 +431,25 @@ entries:
     version: 4.5.0
   - annotations:
       application.giantswarm.io/app-type: cluster
+      application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-4.4.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-4.4.1.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-4.4.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2026-04-21T11:42:09.860237548Z"
+    description: Giant Swarm cluster chart with provider-independent cluster resources
+    digest: 79bc7afd12af36bae5e280f5da9184124c897cf977027ad7c2312ac3a83e1b74
+    home: https://github.com/giantswarm/cluster
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: cluster
+    sources:
+    - https://github.com/giantswarm/cluster
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-4.4.1.tgz
+    version: 4.4.1
+  - annotations:
+      application.giantswarm.io/app-type: cluster
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-4.4.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-4.4.0.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -27693,4 +27712,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-04a866700e36aa908931dc942ba52607b9a14919.tgz
     version: 34.0.1-04a866700e36aa908931dc942ba52607b9a14919
-generated: "2026-04-21T09:12:20.33790459Z"
+generated: "2026-04-21T11:42:09.853750988Z"
