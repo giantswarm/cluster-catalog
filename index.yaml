@@ -25606,6 +25606,33 @@ entries:
     version: 34.2.0-10253c11303e442f4ca08796352234821c7f0107
   - annotations:
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-azure-34.2.0-025a3b2c9c944bf596a6495ad9deec4798686819.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/025a3b2c9c944bf596a6495ad9deec4798686819/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/025a3b2c9c944bf596a6495ad9deec4798686819/helm/release-chart/values.schema.json
+    apiVersion: v2
+    created: "2026-04-23T12:43:15.295118764Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 5.3.1
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the Azure infrastructure
+      provider (CAPZ).
+    digest: 48d609a3163564c925e3a0e01868caa2ff1b60340e3ede6cf8fabc20aa1c4122
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    name: release-azure
+    sources:
+    - https://github.com/giantswarm/cluster-azure
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-azure-34.2.0-025a3b2c9c944bf596a6495ad9deec4798686819.tgz
+    version: 34.2.0-025a3b2c9c944bf596a6495ad9deec4798686819
+  - annotations:
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-azure-34.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v34.1.0/README.md
       io.giantswarm.application.team: phoenix
@@ -28359,4 +28386,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-04a866700e36aa908931dc942ba52607b9a14919.tgz
     version: 34.0.1-04a866700e36aa908931dc942ba52607b9a14919
-generated: "2026-04-23T08:26:12.804451758Z"
+generated: "2026-04-23T12:43:15.281650341Z"
