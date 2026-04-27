@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-test-catalog/cluster-cloud-director-3.1.4.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-cloud-director/refs/tags/v3.1.4/README.md
+  application.giantswarm.io/restrictions/compatibleProviders: cloud-director
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-cloud-director/refs/tags/v3.1.4/helm/cluster-cloud-director/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/logo_light.png
+chartApiVersion: v2
+chartFile: release-cloud-director-34.1.2-ff34d9decdc78e2d163478ff82eaf70bf72ae0f1.tgz
+dateCreated: '2026-04-27T14:10:08.677322Z'
+digest: 9c38fdf3a116fcda592f3a9c4ed80047b39b81bb24aef62fe5b98c452f1b5441
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
