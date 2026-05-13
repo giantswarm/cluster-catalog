@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aws-3.8.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-aws-3.8.0.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-aws-3.8.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: release-aws-31.2.0-166c309659070e4f0dafc0e7996cbc53c884024b.tgz
+dateCreated: '2026-05-13T05:39:34.486351Z'
+digest: a33964f83bdae276cc3954ae8bd4df145f58261ddecc41e2a89aeca67cf34d3c
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
