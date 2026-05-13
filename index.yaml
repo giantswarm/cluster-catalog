@@ -26057,6 +26057,33 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-aws-31.2.0-166c309659070e4f0dafc0e7996cbc53c884024b.tgz
     version: 31.2.0-166c309659070e4f0dafc0e7996cbc53c884024b
+  - annotations:
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aws-31.2.0-106ef32435e22489e10bcfe17e0f56b55bd76bdd.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/106ef32435e22489e10bcfe17e0f56b55bd76bdd/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/106ef32435e22489e10bcfe17e0f56b55bd76bdd/helm/release-chart/values.schema.json
+    apiVersion: v2
+    created: "2026-05-13T05:49:55.738571418Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 2.6.1
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: a6b875fad494954d637956afe5395078eb36d4600c74630685ea095c14d113ea
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: release-aws
+    sources:
+    - https://github.com/giantswarm/cluster-aws
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-aws-31.2.0-106ef32435e22489e10bcfe17e0f56b55bd76bdd.tgz
+    version: 31.2.0-106ef32435e22489e10bcfe17e0f56b55bd76bdd
   release-azure:
   - annotations:
       io.giantswarm.application.app-type: cluster
@@ -31881,4 +31908,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-04a866700e36aa908931dc942ba52607b9a14919.tgz
     version: 34.0.1-04a866700e36aa908931dc942ba52607b9a14919
-generated: "2026-05-13T05:48:25.245527035Z"
+generated: "2026-05-13T05:49:55.729833314Z"
