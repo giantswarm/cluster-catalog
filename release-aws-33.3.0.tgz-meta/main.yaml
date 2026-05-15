@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aws-6.5.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cluster-aws-6.5.0.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/cluster-catalog/cluster-aws-6.5.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: release-aws-33.3.0.tgz
+dateCreated: '2026-05-15T07:04:44.622927Z'
+digest: 151df694c8effb4c111196764d8e36daf2bcee0f0492dbf11075d81a03c6c510
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
