@@ -26168,6 +26168,33 @@ entries:
     version: 32.3.0-247755e282d784f7539d813a53362745226017e5
   - annotations:
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aws-31.2.0-ad28de5c9e043427ed4ca35ac226c6abda66d491.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/ad28de5c9e043427ed4ca35ac226c6abda66d491/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/ad28de5c9e043427ed4ca35ac226c6abda66d491/helm/release-chart/values.schema.json
+    apiVersion: v2
+    created: "2026-05-15T09:14:13.366027709Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 2.6.1
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: 2231c2c9c27c9fd1bd934039c705f573dd26775853ff6ab52160a35bf56ddf93
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: release-aws
+    sources:
+    - https://github.com/giantswarm/cluster-aws
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-aws-31.2.0-ad28de5c9e043427ed4ca35ac226c6abda66d491.tgz
+    version: 31.2.0-ad28de5c9e043427ed4ca35ac226c6abda66d491
+  - annotations:
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aws-31.2.0-9b7629c3cd1ca39221e4d74216104693d04dccaa.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/9b7629c3cd1ca39221e4d74216104693d04dccaa/README.md
       io.giantswarm.application.team: phoenix
@@ -32290,4 +32317,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-04a866700e36aa908931dc942ba52607b9a14919.tgz
     version: 34.0.1-04a866700e36aa908931dc942ba52607b9a14919
-generated: "2026-05-15T09:11:04.38478551Z"
+generated: "2026-05-15T09:14:13.357519704Z"
