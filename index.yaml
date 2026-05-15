@@ -26222,6 +26222,33 @@ entries:
     version: 32.3.0-203e637ac7fb7cb01c22c655b7b80b35bef24924
   - annotations:
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aws-31.2.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v31.2.0/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v31.2.0/helm/release-chart/values.schema.json
+    apiVersion: v2
+    created: "2026-05-15T10:38:16.036312303Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 2.6.1
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: 63d260426f78206d1fb21c9befc9b88da5468abf3baa983ce3fee00ff8b63041
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: release-aws
+    sources:
+    - https://github.com/giantswarm/cluster-aws
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-aws-31.2.0.tgz
+    version: 31.2.0
+  - annotations:
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aws-31.2.0-ad28de5c9e043427ed4ca35ac226c6abda66d491.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/ad28de5c9e043427ed4ca35ac226c6abda66d491/README.md
       io.giantswarm.application.team: phoenix
@@ -32371,4 +32398,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-04a866700e36aa908931dc942ba52607b9a14919.tgz
     version: 34.0.1-04a866700e36aa908931dc942ba52607b9a14919
-generated: "2026-05-15T10:36:28.987885623Z"
+generated: "2026-05-15T10:38:16.024707571Z"
