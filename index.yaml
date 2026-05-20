@@ -241,6 +241,25 @@ entries:
     version: 6.0.0
   - annotations:
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-5.3.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster/refs/tags/v5.3.2/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster/refs/tags/v5.3.2/helm/cluster/values.schema.json
+    apiVersion: v2
+    created: "2026-05-20T08:34:59.602728191Z"
+    description: Giant Swarm cluster chart with provider-independent cluster resources
+    digest: 427baab370bfa1e50ab278251743ff6a29fde315f9d640f554742d6aaaada804
+    home: https://github.com/giantswarm/cluster
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: cluster
+    sources:
+    - https://github.com/giantswarm/cluster
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-5.3.2.tgz
+    version: 5.3.2
+  - annotations:
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-5.3.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster/refs/tags/v5.3.1/README.md
       io.giantswarm.application.team: tenet
@@ -32508,4 +32527,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-04a866700e36aa908931dc942ba52607b9a14919.tgz
     version: 34.0.1-04a866700e36aa908931dc942ba52607b9a14919
-generated: "2026-05-20T08:33:36.507989508Z"
+generated: "2026-05-20T08:34:59.596384303Z"
