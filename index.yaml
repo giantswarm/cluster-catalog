@@ -29464,6 +29464,42 @@ entries:
     - https://giantswarm.github.io/cluster-catalog/release-cloud-director-34.4.0-c62fbc0ec1b38e2b04829a1676ae35b5e5d04290.tgz
     version: 34.4.0-c62fbc0ec1b38e2b04829a1676ae35b5e5d04290
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-cloud-director-34.4.0-67cfc176fdcc8e9e816f558d812c3004f69583dc.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/67cfc176fdcc8e9e816f558d812c3004f69583dc/README.md
+      io.giantswarm.application.restrictions.compatible-providers: cloud-director
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/67cfc176fdcc8e9e816f558d812c3004f69583dc/helm/release-chart/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/logo_light.png
+    apiVersion: v2
+    created: "2026-05-28T04:12:56.998050055Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 5.3.2
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the VMware Cloud
+      Director (VCD) infrastructure provider (CAPVCD).
+    digest: 0e81bee26317ad122204fe60bab07743c3f7509e1dbce1e503402ff5aa8cb8f0
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
+    keywords:
+    - capvcd
+    - vmware
+    - cloud
+    - director
+    - vcd
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: release-cloud-director
+    sources:
+    - https://github.com/giantswarm/cluster-cloud-director
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-cloud-director-34.4.0-67cfc176fdcc8e9e816f558d812c3004f69583dc.tgz
+    version: 34.4.0-67cfc176fdcc8e9e816f558d812c3004f69583dc
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-cloud-director-34.4.0-3625b15a45aed021d2cc7a261b154761db72567b.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/3625b15a45aed021d2cc7a261b154761db72567b/README.md
       io.giantswarm.application.restrictions.compatible-providers: cloud-director
@@ -34238,4 +34274,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-04a866700e36aa908931dc942ba52607b9a14919.tgz
     version: 34.0.1-04a866700e36aa908931dc942ba52607b9a14919
-generated: "2026-05-27T15:51:45.879612439Z"
+generated: "2026-05-28T04:12:56.988402773Z"
