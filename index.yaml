@@ -27609,6 +27609,30 @@ entries:
     version: 35.0.0-278c555814b49704634a358f49864d4c98e200f9
   - annotations:
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-azure-35.0.0-1fc6b9e8834bcde26f68363bf26743b293f167cd.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/1fc6b9e8834bcde26f68363bf26743b293f167cd/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/1fc6b9e8834bcde26f68363bf26743b293f167cd/helm/release-chart/values.schema.json
+    apiVersion: v2
+    created: "2026-05-28T08:21:38.773818591Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 6.5.0
+    description: A helm chart for creating Cluster API clusters with the Azure infrastructure
+      provider (CAPZ).
+    digest: 66a69c85193b43a727654785376173f33d609d04981f94422a3f5118647aef2f
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    name: release-azure
+    sources:
+    - https://github.com/giantswarm/cluster-azure
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-azure-35.0.0-1fc6b9e8834bcde26f68363bf26743b293f167cd.tgz
+    version: 35.0.0-1fc6b9e8834bcde26f68363bf26743b293f167cd
+  - annotations:
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-azure-35.0.0-11fa8118eaa011f726e57c28cf861ad31d0415d2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/11fa8118eaa011f726e57c28cf861ad31d0415d2/README.md
       io.giantswarm.application.team: phoenix
@@ -34736,4 +34760,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-04a866700e36aa908931dc942ba52607b9a14919.tgz
     version: 34.0.1-04a866700e36aa908931dc942ba52607b9a14919
-generated: "2026-05-28T08:21:33.917226998Z"
+generated: "2026-05-28T08:21:38.764979837Z"
