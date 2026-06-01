@@ -7,7 +7,7 @@ annotations:
   application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-aws/28c2de2447bccc2b90e097b56f5c6e6b3ee7045b/helm/cluster-aws/values.schema.json
 chartApiVersion: v2
 chartFile: release-aws-35.0.0-bdf9ea398f087c632b878cdb93dca31bd5c015e3.tgz
-dateCreated: '2026-06-01T05:13:12.346507Z'
-digest: 984c214eb4cf604f94fd30384bcfe9e711509407a71f8a2f6bfccc69d074375e
+dateCreated: '2026-06-01T14:04:07.331046Z'
+digest: bbcfb81e9f001ebf649acbc255a6ad75e85c5055a3fd373642562704d79afdc6
 home: https://github.com/giantswarm/releases
 icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg

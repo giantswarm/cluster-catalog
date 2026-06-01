@@ -24931,14 +24931,14 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/bdf9ea398f087c632b878cdb93dca31bd5c015e3/helm/release-chart/values.schema.json
     apiVersion: v2
     appVersion: 8.5.0-28c2de2447bccc2b90e097b56f5c6e6b3ee7045b
-    created: "2026-06-01T05:13:19.8647188Z"
+    created: "2026-06-01T14:04:30.671454565Z"
     dependencies:
     - name: cluster
       repository: https://giantswarm.github.io/cluster-test-catalog
       version: 6.5.0-8ce37f5e1407dc482cd000007ed973bd23d8a1f3
     description: A helm chart for creating Cluster API clusters with the AWS infrastructure
       provider (CAPA).
-    digest: 984c214eb4cf604f94fd30384bcfe9e711509407a71f8a2f6bfccc69d074375e
+    digest: bbcfb81e9f001ebf649acbc255a6ad75e85c5055a3fd373642562704d79afdc6
     home: https://github.com/giantswarm/releases
     icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
     name: release-aws
@@ -35864,4 +35864,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-04a866700e36aa908931dc942ba52607b9a14919.tgz
     version: 34.0.1-04a866700e36aa908931dc942ba52607b9a14919
-generated: "2026-06-01T14:04:27.89526818Z"
+generated: "2026-06-01T14:04:30.655765665Z"
