@@ -33145,6 +33145,32 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-eks-34.0.0.tgz
     version: 34.0.0
+  - annotations:
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-eks-0.0.0-dev.release-v35-0-0.2026-06-01.14-47-15.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v0.0.0-dev.release-v35-0-0.2026-06-01.14-47-15/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws,capa
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v0.0.0-dev.release-v35-0-0.2026-06-01.14-47-15/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.0-dev.release-v35-0-0.2026-06-01.14-47-15
+    created: "2026-06-01T14:47:24.187860757Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 6.4.0
+    description: A helm chart for creating Cluster API EKS clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: 136e3bcbdd02c23e18a7fbb2da9eb028a168ac2f8d3867ce80da1ae5d3db7219
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: release-eks
+    sources:
+    - https://github.com/giantswarm/cluster-eks
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-eks-0.0.0-dev.release-v35-0-0.2026-06-01.14-47-15.tgz
+    version: 0.0.0-dev.release-v35-0-0.2026-06-01.14-47-15
   release-vsphere:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-vsphere-35.0.0-ef20aea44e4d1522217bf12894ce8f82f3d7c91a.tgz-meta/main.yaml
@@ -35895,4 +35921,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.release-v35-0-0.2026-06-01.14-47-10.tgz
     version: 0.0.0-dev.release-v35-0-0.2026-06-01.14-47-10
-generated: "2026-06-01T14:47:18.995322385Z"
+generated: "2026-06-01T14:47:24.175088631Z"
