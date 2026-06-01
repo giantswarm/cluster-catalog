@@ -33432,14 +33432,14 @@ entries:
       io.giantswarm.application.team: rocket
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/bdf9ea398f087c632b878cdb93dca31bd5c015e3/helm/release-chart/values.schema.json
     apiVersion: v2
-    created: "2026-06-01T05:13:12.291719253Z"
+    created: "2026-06-01T14:04:22.249721894Z"
     dependencies:
     - name: cluster
       repository: https://giantswarm.github.io/cluster-catalog
       version: 6.5.0
     description: A helm chart for creating Cluster API clusters with the vSphere provider
       (CAPV).
-    digest: 5e7eac48926678a8119b6d86838e93563ddc53098b2731ce50950fdfcb974c30
+    digest: 4670da7e7bc30751e1800da94c4c2646a2d86c6efa6e0ed9b3226b6a11ca96ff
     home: https://github.com/giantswarm/releases
     icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
     keywords:
@@ -35864,4 +35864,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-34.0.1-04a866700e36aa908931dc942ba52607b9a14919.tgz
     version: 34.0.1-04a866700e36aa908931dc942ba52607b9a14919
-generated: "2026-06-01T14:04:14.482315333Z"
+generated: "2026-06-01T14:04:22.237026546Z"

@@ -6,7 +6,7 @@ annotations:
   application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v6.4.0/helm/cluster-vsphere/values.schema.json
 chartApiVersion: v2
 chartFile: release-vsphere-35.0.0-bdf9ea398f087c632b878cdb93dca31bd5c015e3.tgz
-dateCreated: '2026-06-01T05:13:04.443637Z'
-digest: 5e7eac48926678a8119b6d86838e93563ddc53098b2731ce50950fdfcb974c30
+dateCreated: '2026-06-01T14:04:13.692290Z'
+digest: 4670da7e7bc30751e1800da94c4c2646a2d86c6efa6e0ed9b3226b6a11ca96ff
 home: https://github.com/giantswarm/releases
 icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
