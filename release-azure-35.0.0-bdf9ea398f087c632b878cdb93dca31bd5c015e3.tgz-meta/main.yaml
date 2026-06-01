@@ -6,7 +6,7 @@ annotations:
   application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v6.5.0/helm/cluster-azure/values.schema.json
 chartApiVersion: v2
 chartFile: release-azure-35.0.0-bdf9ea398f087c632b878cdb93dca31bd5c015e3.tgz
-dateCreated: '2026-06-01T05:12:56.125375Z'
-digest: 6d95282f4bf3df7d131fe86394984bc08dd79d95680addf0b5b12255193da278
+dateCreated: '2026-06-01T14:04:20.675452Z'
+digest: 5295444562be2bda3d3f132a746efb9b1c3c47c18d7eddd4eee0a98ce66dcd96
 home: https://github.com/giantswarm/releases
 icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
