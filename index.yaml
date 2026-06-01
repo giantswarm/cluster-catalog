@@ -27515,6 +27515,35 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-aws-0.0.0-dev.release-v35-0-0.2026-06-01.14-47-16.tgz
     version: 0.0.0-dev.release-v35-0-0.2026-06-01.14-47-16
+  - annotations:
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aws-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-45.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v0.0.0-dev.capi-34-4-0.2026-06-01.14-47-45/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws,capa
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v0.0.0-dev.capi-34-4-0.2026-06-01.14-47-45/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-45
+    created: "2026-06-01T14:47:55.178128027Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 5.3.2
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: 7fa29ece2e9345a7c54f3e39fbd39c4ec1499107f4d5a9a04cd785d2a0264ef5
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: release-aws
+    sources:
+    - https://github.com/giantswarm/cluster-aws
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-aws-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-45.tgz
+    version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-45
   release-azure:
   - annotations:
       io.giantswarm.application.app-type: cluster
@@ -36034,4 +36063,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.release-v35-0-0.2026-06-01.14-47-10.tgz
     version: 0.0.0-dev.release-v35-0-0.2026-06-01.14-47-10
-generated: "2026-06-01T14:47:52.360472092Z"
+generated: "2026-06-01T14:47:55.159256218Z"
