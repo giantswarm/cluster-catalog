@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: cluster-aws-8.6.0.tgz
+dateCreated: '2026-06-02T07:54:28.014611Z'
+digest: 178ef7df3c5518c8591ae98a4dddeb694101fb9155e84eb4ed63afd9bbf2b05c
+home: https://github.com/giantswarm/cluster-aws
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+restrictions:
+  compatibleProviders:
+  - aws
+  - capa
