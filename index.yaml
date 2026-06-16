@@ -14001,6 +14001,32 @@ entries:
   cluster-eks:
   - annotations:
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-eks-2.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-eks/refs/tags/v2.1.0/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws,capa
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-eks/refs/tags/v2.1.0/helm/cluster-eks/values.schema.json
+    apiVersion: v2
+    appVersion: 2.1.0
+    created: "2026-06-16T16:26:50.856027717Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 6.6.0
+    description: A helm chart for creating Cluster API EKS clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: 351e3e336359021d9b57cf511ed49f34b8ad7c5b56f81aa04f7eefc7057a3151
+    home: https://github.com/giantswarm/cluster-eks
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: cluster-eks
+    sources:
+    - https://github.com/giantswarm/cluster-eks
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-eks-2.1.0.tgz
+    version: 2.1.0
+  - annotations:
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-eks-2.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-eks/refs/tags/v2.0.0/README.md
       io.giantswarm.application.restrictions.compatible-providers: aws,capa
@@ -40870,4 +40896,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-06-16T04:38:04.842262484Z"
+generated: "2026-06-16T16:26:50.843644838Z"

@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: cluster-eks-2.1.0.tgz
+dateCreated: '2026-06-16T16:26:44.497503Z'
+digest: 351e3e336359021d9b57cf511ed49f34b8ad7c5b56f81aa04f7eefc7057a3151
+home: https://github.com/giantswarm/cluster-eks
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+restrictions:
+  compatibleProviders:
+  - aws
+  - capa
