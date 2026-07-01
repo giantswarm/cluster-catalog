@@ -36189,6 +36189,40 @@ entries:
     - https://giantswarm.github.io/cluster-catalog/release-cloud-director-0.0.0-dev.release-v35-0-0-aks.2026-06-23.09-25-28.ha5717ef.tgz
     version: 0.0.0-dev.release-v35-0-0-aks.2026-06-23.09-25-28.ha5717ef
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-cloud-director-0.0.0-dev.release-v35-0-0.2026-07-01.14-37-00.h1d305c9.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v0.0.0-dev.release-v35-0-0.2026-07-01.14-37-00.h1d305c9/README.md
+      io.giantswarm.application.restrictions.compatible-providers: cloud-director
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v0.0.0-dev.release-v35-0-0.2026-07-01.14-37-00.h1d305c9/helm/release-chart/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/logo_light.png
+    apiVersion: v2
+    appVersion: 0.0.0-dev.release-v35-0-0.2026-07-01.14-37-00.h1d305c9
+    created: "2026-07-01T14:38:13.078732654Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 6.7.0
+    description: A helm chart for creating Cluster API clusters with the VMware Cloud
+      Director (VCD) infrastructure provider (CAPVCD).
+    digest: c1d919236c02fd8342b202c56d3330be2efea1436a81411b224fb6684974cded
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
+    keywords:
+    - capvcd
+    - vmware
+    - cloud
+    - director
+    - vcd
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: release-cloud-director
+    sources:
+    - https://github.com/giantswarm/cluster-cloud-director
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-cloud-director-0.0.0-dev.release-v35-0-0.2026-07-01.14-37-00.h1d305c9.tgz
+    version: 0.0.0-dev.release-v35-0-0.2026-07-01.14-37-00.h1d305c9
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-cloud-director-0.0.0-dev.release-v35-0-0.2026-07-01.10-42-52.h5a38d07.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v0.0.0-dev.release-v35-0-0.2026-07-01.10-42-52.h5a38d07/README.md
       io.giantswarm.application.restrictions.compatible-providers: cloud-director
@@ -45142,4 +45176,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-07-01T13:50:38.368271713Z"
+generated: "2026-07-01T14:38:13.061232651Z"
