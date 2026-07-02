@@ -92,6 +92,23 @@ entries:
     version: 0.0.6
   cilium-crossplane-resources:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cilium-crossplane-resources-0.2.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cilium-crossplane-resources/refs/tags/v0.2.2/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cilium-crossplane-resources/refs/tags/v0.2.2/helm/cilium-crossplane-resources/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.2
+    created: "2026-07-02T12:14:59.987640931Z"
+    description: Included by cluster-aws to provide certain features that depend on
+      Crossplane values
+    digest: ebfd5c56b4fa18826206b3aaa46aed9c55589a4103636a194a50fa8e8d69d6ba
+    home: https://github.com/giantswarm/cilium-crossplane-resources
+    icon: https://s.giantswarm.io/app-icons/crossplane/1/dark.svg
+    name: cilium-crossplane-resources
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cilium-crossplane-resources-0.2.2.tgz
+    version: 0.2.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cilium-crossplane-resources-0.2.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/cluster-catalog/cilium-crossplane-resources-0.2.1.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -45737,4 +45754,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-07-02T12:04:34.816337047Z"
+generated: "2026-07-02T12:14:59.986965742Z"

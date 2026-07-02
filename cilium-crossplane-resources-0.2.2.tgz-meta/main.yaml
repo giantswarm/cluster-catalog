@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: cilium-crossplane-resources-0.2.2.tgz
+dateCreated: '2026-07-02T12:14:46.540666Z'
+digest: ebfd5c56b4fa18826206b3aaa46aed9c55589a4103636a194a50fa8e8d69d6ba
+home: https://github.com/giantswarm/cilium-crossplane-resources
+icon: https://s.giantswarm.io/app-icons/crossplane/1/dark.svg
