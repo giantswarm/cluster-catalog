@@ -3,8 +3,8 @@ annotations:
   application.giantswarm.io/team: phoenix
 chartApiVersion: v2
 chartFile: cluster-aws-7.7.3.tgz
-dateCreated: '2026-07-14T14:05:52.756055Z'
-digest: e0efd5e5b5ec3daeed6fb0a31c664468159e1d03f4205005d6ae275357b81720
+dateCreated: '2026-07-14T14:25:20.579510Z'
+digest: afa24895adc9e57014791dde6d851931b04d0a3bb0596f27e7f66ab1aaac4e3f
 home: https://github.com/giantswarm/cluster-aws
 icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
 restrictions:
