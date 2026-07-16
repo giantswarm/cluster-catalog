@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: cluster-azure-6.8.1.tgz
+dateCreated: '2026-07-16T10:23:54.293505Z'
+digest: dba72a9946b7b85978560aa674d08fa69f391291f065b847f7d4483b8679ebae
+home: https://github.com/giantswarm/cluster-azure
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
