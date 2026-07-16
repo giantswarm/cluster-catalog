@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/appType: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-azure-6.7.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v6.7.0/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v6.7.0/helm/cluster-azure/values.schema.json
+chartApiVersion: v2
+chartFile: release-azure-0.0.0-dev.release-v35-0-0.2026-07-16.06-12-06.hda7f46a.tgz
+dateCreated: '2026-07-16T06:13:14.045917Z'
+digest: 68a91428b2c231512b120768491c77163e74220eda9ccae70b4474b5ba434fc4
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
