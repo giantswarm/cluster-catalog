@@ -32891,6 +32891,33 @@ entries:
     version: 35.0.0-007c743a9b17d5686a2e88007c379d9b588c9d90
   - annotations:
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-azure-34.5.0-d243e8343c258620aae81f505b8b41f5a91e860a.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v34.5.0-d243e8343c258620aae81f505b8b41f5a91e860a/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v34.5.0-d243e8343c258620aae81f505b8b41f5a91e860a/helm/release-chart/values.schema.json
+    apiVersion: v2
+    created: "2026-07-23T07:48:58.164104122Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 5.3.2
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the Azure infrastructure
+      provider (CAPZ).
+    digest: bbcbe40681426ea9be3b577a953d74f5911ab8dca178a0ece7ba12b7a19e5d49
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    name: release-azure
+    sources:
+    - https://github.com/giantswarm/cluster-azure
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-azure-34.5.0-d243e8343c258620aae81f505b8b41f5a91e860a.tgz
+    version: 34.5.0-d243e8343c258620aae81f505b8b41f5a91e860a
+  - annotations:
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-azure-34.5.0-7890fe633e56f80fd3ef6a9524e34ef6b0146b30.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v34.5.0-7890fe633e56f80fd3ef6a9524e34ef6b0146b30/README.md
       io.giantswarm.application.team: phoenix
@@ -53817,4 +53844,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-07-23T07:48:54.356708597Z"
+generated: "2026-07-23T07:48:58.151155349Z"
