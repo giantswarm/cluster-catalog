@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/appType: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aws-7.7.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-aws/refs/tags/v7.7.3/README.md
+  application.giantswarm.io/restrictions/compatibleProviders: aws,capa
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-aws/refs/tags/v7.7.3/helm/cluster-aws/values.schema.json
+chartApiVersion: v2
+chartFile: release-aws-34.5.0-c3a9b78ce2279353d44cfe85f52a3dcea16995b6.tgz
+dateCreated: '2026-07-23T08:33:01.356039Z'
+digest: 750bbf73e9146dcb774656bf25723d358f7298385271abd9747bec96ff6f7f85
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
