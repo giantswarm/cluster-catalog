@@ -39122,7 +39122,7 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v34.5.0-c64bc5406253f29cb68ca068c84e6a09ee8d9eeb/helm/release-chart/values.schema.json
       ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/logo_light.png
     apiVersion: v2
-    created: "2026-07-24T07:23:21.465447511Z"
+    created: "2026-07-27T11:15:25.031877715Z"
     dependencies:
     - name: cluster
       repository: https://giantswarm.github.io/cluster-catalog
@@ -39132,7 +39132,7 @@ entries:
       version: 0.7.1
     description: A helm chart for creating Cluster API clusters with the VMware Cloud
       Director (VCD) infrastructure provider (CAPVCD).
-    digest: 6cca8af01b40001ecf8ca3fade7d183fd460525eca638464732f6dd873416276
+    digest: 29cd8857627b9456ea35e8d7aa176884b90afc6d2acf208754e2bcc158cf9e87
     home: https://github.com/giantswarm/releases
     icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
     keywords:
@@ -55440,4 +55440,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-07-27T11:15:16.920196569Z"
+generated: "2026-07-27T11:15:25.019096953Z"
