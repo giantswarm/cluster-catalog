@@ -27621,6 +27621,36 @@ entries:
     - https://giantswarm.github.io/cluster-catalog/release-aws-35.0.0-11fa8118eaa011f726e57c28cf861ad31d0415d2.tgz
     version: 35.0.0-11fa8118eaa011f726e57c28cf861ad31d0415d2
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-aws/issues
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aws-35.0.0-0f6dceef88a85b2a72f2bc32d509cf8cdaa0fa3f.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-0f6dceef88a85b2a72f2bc32d509cf8cdaa0fa3f/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws,capa
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-0f6dceef88a85b2a72f2bc32d509cf8cdaa0fa3f/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 8.9.2-dev.migrate-app--elmreleases.2026-07-30.06-49-16.h06883f0
+    created: "2026-07-30T07:02:57.015713472Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-test-catalog
+      version: 6.8.1-dev.migrate-app--elmreleases.2026-07-29.20-03-37.h94c3370
+    description: A helm chart for creating Cluster API clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: 7630337c58943eabed23b3d18ea38d75dc148b57660a9343e274c3d3e0f68621
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: release-aws
+    sources:
+    - https://github.com/giantswarm/cluster-aws
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-aws-35.0.0-0f6dceef88a85b2a72f2bc32d509cf8cdaa0fa3f.tgz
+    version: 35.0.0-0f6dceef88a85b2a72f2bc32d509cf8cdaa0fa3f
+  - annotations:
       io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aws-35.0.0-09b99de4c5a1d282293d77911ed9960fa8a87e79.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-09b99de4c5a1d282293d77911ed9960fa8a87e79/README.md
@@ -57474,4 +57504,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-07-30T07:02:47.328624308Z"
+generated: "2026-07-30T07:02:57.002374573Z"
