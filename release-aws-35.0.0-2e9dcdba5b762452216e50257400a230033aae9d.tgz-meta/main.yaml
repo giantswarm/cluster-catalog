@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/appType: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-test-catalog/cluster-aws-8.9.2-dev.migrate-app--elmreleases.2026-08-01.06-39-20.h5116efa.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-aws/refs/tags/v8.9.2-dev.migrate-app--elmreleases.2026-08-01.06-39-20.h5116efa/README.md
+  application.giantswarm.io/restrictions/compatibleProviders: aws,capa
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-aws/refs/tags/v8.9.2-dev.migrate-app--elmreleases.2026-08-01.06-39-20.h5116efa/helm/cluster-aws/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-aws/issues\n"
+chartApiVersion: v2
+chartFile: release-aws-35.0.0-2e9dcdba5b762452216e50257400a230033aae9d.tgz
+dateCreated: '2026-08-01T07:04:20.617001Z'
+digest: dfb47f6c421df4604607269603e989e0ccd410da38a405fa080f80c328476d47
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
