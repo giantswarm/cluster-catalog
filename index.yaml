@@ -47534,6 +47534,36 @@ entries:
     - https://giantswarm.github.io/cluster-catalog/release-eks-35.0.0-f94f5396b2a29948693df4fa81d84c707ece7ca6.tgz
     version: 35.0.0-f94f5396b2a29948693df4fa81d84c707ece7ca6
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/releases/issues
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-eks-35.0.0-f1c3d761e8f5a7996cd7d39310587918e13d32a4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-f1c3d761e8f5a7996cd7d39310587918e13d32a4/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws,capa
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-f1c3d761e8f5a7996cd7d39310587918e13d32a4/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 2.2.0
+    created: "2026-08-02T12:08:28.808648873Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 6.7.0
+    description: A helm chart for creating Cluster API EKS clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: 80453f32f3c013736b367f5ef8fe3ead34196c7a59556311d5c67bddcd8b39c6
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: release-eks
+    sources:
+    - https://github.com/giantswarm/cluster-eks
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-eks-35.0.0-f1c3d761e8f5a7996cd7d39310587918e13d32a4.tgz
+    version: 35.0.0-f1c3d761e8f5a7996cd7d39310587918e13d32a4
+  - annotations:
       io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-eks-35.0.0-ef20aea44e4d1522217bf12894ce8f82f3d7c91a.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/ef20aea44e4d1522217bf12894ce8f82f3d7c91a/README.md
@@ -59580,4 +59610,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-08-02T12:08:23.512936985Z"
+generated: "2026-08-02T12:08:28.792051281Z"
