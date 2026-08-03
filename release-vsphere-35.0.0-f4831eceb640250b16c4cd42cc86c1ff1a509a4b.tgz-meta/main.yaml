@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-test-catalog/cluster-vsphere-7.0.1-dev.migrate-app--elmreleases.2026-08-02.11-38-14.h5338013.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v7.0.1-dev.migrate-app--elmreleases.2026-08-02.11-38-14.h5338013/README.md
+  application.giantswarm.io/restrictions/compatibleProviders: vsphere
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-vsphere/refs/tags/v7.0.1-dev.migrate-app--elmreleases.2026-08-02.11-38-14.h5338013/helm/cluster-vsphere/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-vsphere/issues\n"
+chartApiVersion: v2
+chartFile: release-vsphere-35.0.0-f4831eceb640250b16c4cd42cc86c1ff1a509a4b.tgz
+dateCreated: '2026-08-03T06:03:44.813222Z'
+digest: 902218e7be5037f215734bfc5b741c08b414bfd6a4329a6c715d9d806ae86799
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
