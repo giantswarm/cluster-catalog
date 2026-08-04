@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: cert-manager-crossplane-resources-0.2.0.tgz
+dateCreated: '2026-08-04T11:41:21.126659Z'
+digest: 704c5eeacfbe90fe266eeaec58f7fa6d75db769375eccad198982467ed344ed1
+home: https://github.com/giantswarm/cert-manager-crossplane-resources
+icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
