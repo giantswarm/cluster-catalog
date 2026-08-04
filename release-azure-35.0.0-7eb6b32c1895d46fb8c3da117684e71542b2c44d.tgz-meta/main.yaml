@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/appType: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-test-catalog/cluster-azure-7.0.1-dev.migrate-app--elmreleases.2026-08-04.14-24-24.h99d6057.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v7.0.1-dev.migrate-app--elmreleases.2026-08-04.14-24-24.h99d6057/README.md
+  application.giantswarm.io/restrictions/compatibleProviders: azure
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v7.0.1-dev.migrate-app--elmreleases.2026-08-04.14-24-24.h99d6057/helm/cluster-azure/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-azure/issues\n"
+chartApiVersion: v2
+chartFile: release-azure-35.0.0-7eb6b32c1895d46fb8c3da117684e71542b2c44d.tgz
+dateCreated: '2026-08-04T18:30:25.144307Z'
+digest: 2e945a0178925264c884193c7414cb1af269bc2fe1b53a0e0823d6c1e9e50f96
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
