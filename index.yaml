@@ -27500,6 +27500,41 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/cluster-aws/issues
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aws-35.0.0-810be0e68f862cdeefbe6207c7bf8fc4fa949d85.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-810be0e68f862cdeefbe6207c7bf8fc4fa949d85/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-810be0e68f862cdeefbe6207c7bf8fc4fa949d85/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 9.0.1-dev.migrate-app--elmreleases.2026-08-05.04-17-14.h11a00a0
+    created: "2026-08-06T04:01:20.917142122Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-test-catalog
+      version: 7.0.1-dev.migrate-app--elmreleases.2026-08-04.14-15-21.h66e00d7
+    description: A helm chart for creating Cluster API clusters with the AWS provider
+      (CAPA).
+    digest: 38dc5ae336ea44118aac6cfd971077f4c470d551ed84733057344c9ca1062ce0
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    keywords:
+    - capa
+    - aws
+    maintainers:
+    - email: team-phoenix@giantswarm.io
+      name: Team Phoenix
+    name: release-aws
+    sources:
+    - https://github.com/giantswarm/cluster-aws
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-aws-35.0.0-810be0e68f862cdeefbe6207c7bf8fc4fa949d85.tgz
+    version: 35.0.0-810be0e68f862cdeefbe6207c7bf8fc4fa949d85
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-aws/issues
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aws-35.0.0-80e0e004593e82abd0d26be16c89cbcb85080d8e.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-80e0e004593e82abd0d26be16c89cbcb85080d8e/README.md
       io.giantswarm.application.restrictions.compatible-providers: aws,capa
@@ -63844,4 +63879,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-08-05T14:31:56.923164516Z"
+generated: "2026-08-06T04:01:20.906764877Z"
