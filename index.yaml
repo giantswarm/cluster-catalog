@@ -41934,6 +41934,41 @@ entries:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
         - name: Support
+          url: https://github.com/giantswarm/cluster-cloud-director/issues
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-cloud-director-35.0.0-fad0c0576cc6e11a138d3fcaee94a6d0307a6349.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-fad0c0576cc6e11a138d3fcaee94a6d0307a6349/README.md
+      io.giantswarm.application.restrictions.compatible-providers: cloud-director
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-fad0c0576cc6e11a138d3fcaee94a6d0307a6349/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 6.0.1-dev.migrate-app--elmreleases.2026-08-10.07-36-17.h29b38d1
+    created: "2026-08-10T07:49:29.143245756Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-test-catalog
+      version: 7.0.1-dev.migrate-app--elmreleases.2026-08-10.07-29-22.h62c5151
+    description: A helm chart for creating Cluster API clusters with the VMware Cloud
+      Director (VCD) infrastructure provider (CAPVCD).
+    digest: c0e625065ea1c92832ef44850cd3ca5f94f57ffe43ee47651eb7e1d5c1321384
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
+    keywords:
+    - capvcd
+    - cloud-director
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: release-cloud-director
+    sources:
+    - https://github.com/giantswarm/cluster-cloud-director
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-cloud-director-35.0.0-fad0c0576cc6e11a138d3fcaee94a6d0307a6349.tgz
+    version: 35.0.0-fad0c0576cc6e11a138d3fcaee94a6d0307a6349
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
           url: https://github.com/giantswarm/releases/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-cloud-director-35.0.0-f94f5396b2a29948693df4fa81d84c707ece7ca6.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-f94f5396b2a29948693df4fa81d84c707ece7ca6/README.md
@@ -65566,4 +65601,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-08-10T07:49:21.421680635Z"
+generated: "2026-08-10T07:49:29.134352935Z"
