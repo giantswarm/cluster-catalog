@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/appType: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-test-catalog/cluster-cloud-director-6.0.1-dev.migrate-app--elmreleases.2026-08-19.05-53-04.h1b28bfa.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-cloud-director/refs/tags/v6.0.1-dev.migrate-app--elmreleases.2026-08-19.05-53-04.h1b28bfa/README.md
+  application.giantswarm.io/restrictions/compatibleProviders: cloud-director
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-cloud-director/refs/tags/v6.0.1-dev.migrate-app--elmreleases.2026-08-19.05-53-04.h1b28bfa/helm/cluster-cloud-director/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-cloud-director/issues\n"
+chartApiVersion: v2
+chartFile: release-cloud-director-35.0.0-09789d1049d088b9495372dd92d827b518ef8ba4.tgz
+dateCreated: '2026-08-19T06:19:41.262181Z'
+digest: c5ea9e9bd8055e7e0016237f1f234847d6cccc2e23d5c901b12c9c7a3e73cc1f
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
