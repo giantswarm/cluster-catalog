@@ -9,7 +9,7 @@ annotations:
   artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-cloud-director/issues\n"
 chartApiVersion: v2
 chartFile: release-cloud-director-35.0.0-90c52b75e8513bd86c1859231f2320e542bce06f.tgz
-dateCreated: '2026-08-20T14:51:24.099864Z'
-digest: 1c0e34bed52bfec1b8449998b3767e0278e61149ff034d9e626ca5f497bf5b09
+dateCreated: '2026-08-20T14:51:43.815224Z'
+digest: 476465f8261fc5d308e63ebff79c19b61b9037b8baf54a5b5a82fbf4a3163ac9
 home: https://github.com/giantswarm/releases
 icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
