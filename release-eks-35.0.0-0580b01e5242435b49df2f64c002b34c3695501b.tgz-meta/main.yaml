@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/appType: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-test-catalog/cluster-eks-3.0.1-dev.migrate-app--elmreleases.2026-08-19.15-46-04.h1888387.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-eks/refs/tags/v3.0.1-dev.migrate-app--elmreleases.2026-08-19.15-46-04.h1888387/README.md
+  application.giantswarm.io/restrictions/compatibleProviders: aws
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-eks/refs/tags/v3.0.1-dev.migrate-app--elmreleases.2026-08-19.15-46-04.h1888387/helm/cluster-eks/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-eks/issues\n"
+chartApiVersion: v2
+chartFile: release-eks-35.0.0-0580b01e5242435b49df2f64c002b34c3695501b.tgz
+dateCreated: '2026-08-20T04:57:09.902758Z'
+digest: 41b62f9d65e51570839bae99c88e34095ae452fa08e0e8b2d079ec9fe7afc5a4
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
