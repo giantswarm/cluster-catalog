@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/team: tenet
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cluster/issues\n"
+chartApiVersion: v2
+chartFile: cluster-8.0.0.tgz
+dateCreated: '2026-08-21T17:51:52.457771Z'
+digest: 3d019ef9a2fd962e3bcac2aff3efe6ca674a14bf5c7ed90c07344bf2ffc5e048
+home: https://github.com/giantswarm/cluster
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
