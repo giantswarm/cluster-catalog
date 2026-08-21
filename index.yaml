@@ -56963,6 +56963,41 @@ entries:
     - https://giantswarm.github.io/cluster-catalog/release-eks-35.0.0-1db441e6d878f0f7e170e75b2007b7d63ae25892.tgz
     version: 35.0.0-1db441e6d878f0f7e170e75b2007b7d63ae25892
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-eks/issues
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-eks-35.0.0-1c915468f28e6e46e7576bb2bc352fd7377f7f5f.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-1c915468f28e6e46e7576bb2bc352fd7377f7f5f/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.0.0-1c915468f28e6e46e7576bb2bc352fd7377f7f5f/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 3.0.1-dev.migrate-app--elmreleases.2026-08-20.05-41-21.hdcdf5e1
+    created: "2026-08-21T03:34:05.821497242Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-test-catalog
+      version: 7.0.1-dev.migrate-app--elmreleases.2026-08-19.15-43-45.h5c636f7
+    description: A helm chart for creating Cluster API EKS clusters with the AWS provider
+      (CAPA).
+    digest: 0e42db79d38b1db5e7980c297f4d6965d470d9db48a5a28de9d432e71892a89c
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    keywords:
+    - capa
+    - aws
+    maintainers:
+    - email: team-phoenix@giantswarm.io
+      name: Team Phoenix
+    name: release-eks
+    sources:
+    - https://github.com/giantswarm/cluster-eks
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-eks-35.0.0-1c915468f28e6e46e7576bb2bc352fd7377f7f5f.tgz
+    version: 35.0.0-1c915468f28e6e46e7576bb2bc352fd7377f7f5f
+  - annotations:
       io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-eks-35.0.0-1824324fb21788bb8f5f610b1bd55b4faeab61b7.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/1824324fb21788bb8f5f610b1bd55b4faeab61b7/README.md
@@ -69749,4 +69784,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-08-21T03:33:59.567059964Z"
+generated: "2026-08-21T03:34:05.812302526Z"
