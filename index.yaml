@@ -40519,6 +40519,38 @@ entries:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
         - name: Support
+          url: https://github.com/giantswarm/cluster-azure/issues
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-azure-34.5.1-7c377eba8dc449028c76608dfa53f1edd91bdc71.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v34.5.1-7c377eba8dc449028c76608dfa53f1edd91bdc71/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v34.5.1-7c377eba8dc449028c76608dfa53f1edd91bdc71/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 5.4.3
+    created: "2026-08-25T13:03:31.538474164Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 5.3.2
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the Azure infrastructure
+      provider (CAPZ).
+    digest: 221b32a91c8f85d73f2edfef57f07f3ef661793a70339bbc876cb5475f2ef7d2
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    name: release-azure
+    sources:
+    - https://github.com/giantswarm/cluster-azure
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-azure-34.5.1-7c377eba8dc449028c76608dfa53f1edd91bdc71.tgz
+    version: 34.5.1-7c377eba8dc449028c76608dfa53f1edd91bdc71
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
           url: https://github.com/giantswarm/releases/issues
       io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-azure-34.5.1-7acb7fecd30c144c25085fe654224d023eb030fa.tgz-meta/main.yaml
@@ -72253,4 +72285,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-08-25T12:59:29.131040666Z"
+generated: "2026-08-25T13:03:31.529348156Z"
