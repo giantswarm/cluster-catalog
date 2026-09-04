@@ -24943,6 +24943,39 @@ entries:
     version: 0.1.0
   network-policies:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/network-policies-app/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/network-policies-0.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/network-policies-app/refs/tags/v0.3.0/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/network-policies-app/refs/tags/v0.3.0/helm/network-policies-app/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2026-09-04T07:46:08.875925271Z"
+    description: CiliumNetworkPolicies and NetworkPolicies that should be installed
+      in target cluster.
+    digest: 6069ab303866dd7de731a73d855b1188f7661cf688eddd870d21fb8933726ac6
+    home: https://github.com/giantswarm/network-policies-app
+    icon: https://s.giantswarm.io/app-icons/kubernetes-netpol/1/light.svg
+    keywords:
+    - networking
+    - network-policy
+    - cilium
+    - security
+    maintainers:
+    - email: team-cabbage@giantswarm.io
+      name: Team Cabbage
+    name: network-policies
+    sources:
+    - https://github.com/giantswarm/network-policies-app
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/network-policies-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/network-policies-0.2.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/network-policies-app/refs/tags/v0.2.0/README.md
       io.giantswarm.application.team: cabbage
@@ -73910,4 +73943,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-09-03T09:50:19.304286643Z"
+generated: "2026-09-04T07:46:08.874730669Z"
