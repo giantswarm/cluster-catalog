@@ -26357,6 +26357,37 @@ entries:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
         - name: Support
+          url: https://github.com/giantswarm/cluster-aks/issues
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aks-35.2.0-15c30afc86444edee9b6562141def793e9a72cd3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.2.0-15c30afc86444edee9b6562141def793e9a72cd3/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.2.0-15c30afc86444edee9b6562141def793e9a72cd3/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.1-dev.renovate-cluster-8-x.2026-09-10.08-13-31.h9cf43e3
+    created: "2026-09-10T12:04:40.468253602Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 8.2.0
+    description: A Helm chart for creating Cluster API clusters with the Azure infrastructure
+      provider (CAPZ) in AKS mode.
+    digest: bec8b6f6dfcad64b05f7f8ea6ba702bac70a2dc90042ac7cca904a1226d74a04
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    name: release-aks
+    sources:
+    - https://github.com/giantswarm/cluster-aks
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-aks-35.2.0-15c30afc86444edee9b6562141def793e9a72cd3.tgz
+    version: 35.2.0-15c30afc86444edee9b6562141def793e9a72cd3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
           url: https://github.com/giantswarm/releases/issues
       io.giantswarm.application.app-type: cluster
       io.giantswarm.application.audience: all
@@ -76536,4 +76567,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-09-10T12:03:16.074712608Z"
+generated: "2026-09-10T12:04:40.455952339Z"
