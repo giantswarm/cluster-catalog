@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/appType: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-test-catalog/cluster-aws-10.1.1-dev.luca-rui-a--pool-option.2026-09-10.05-15-39.h83ca0e1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-aws/refs/tags/v10.1.1-dev.luca-rui-a--pool-option.2026-09-10.05-15-39.h83ca0e1/README.md
+  application.giantswarm.io/restrictions/compatibleProviders: aws
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-aws/refs/tags/v10.1.1-dev.luca-rui-a--pool-option.2026-09-10.05-15-39.h83ca0e1/helm/cluster-aws/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-aws/issues\n"
+chartApiVersion: v2
+chartFile: release-aws-36.0.0-aaaf612bfc69c407fca2abc1010d7dbb7a8e600b.tgz
+dateCreated: '2026-09-10T07:42:08.771622Z'
+digest: a26ccbae37949d784a288632a364549d2510301f5eee03c73d1852c0463764e6
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
