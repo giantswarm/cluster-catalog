@@ -25922,6 +25922,39 @@ entries:
           url: https://github.com/giantswarm/network-policies-app/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/network-policies-0.3.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/network-policies-app/refs/tags/v0.3.2/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/network-policies-app/refs/tags/v0.3.2/helm/network-policies-app/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.2
+    created: "2026-09-29T14:12:11.414864818Z"
+    description: CiliumNetworkPolicies and NetworkPolicies that should be installed
+      in target cluster.
+    digest: 8041990a0680323ad348615a16a826e95b7ba9a14aa8f36671ed84eb496bf2bd
+    home: https://github.com/giantswarm/network-policies-app
+    icon: https://s.giantswarm.io/app-icons/kubernetes-netpol/1/light.svg
+    keywords:
+    - networking
+    - network-policy
+    - cilium
+    - security
+    maintainers:
+    - email: team-cabbage@giantswarm.io
+      name: Team Cabbage
+    name: network-policies
+    sources:
+    - https://github.com/giantswarm/network-policies-app
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/network-policies-0.3.2.tgz
+    version: 0.3.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/network-policies-app/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/network-policies-0.3.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/network-policies-app/refs/tags/v0.3.1/README.md
       io.giantswarm.application.team: cabbage
@@ -80348,4 +80381,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-09-29T14:10:24.497715423Z"
+generated: "2026-09-29T14:12:11.414062757Z"
