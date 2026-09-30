@@ -40954,6 +40954,41 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/cluster-azure/issues
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-azure-35.2.0-ac1d123db9645cd0089011fd57311f0576eaf575.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.2.0-ac1d123db9645cd0089011fd57311f0576eaf575/README.md
+      io.giantswarm.application.restrictions.compatible-providers: azure
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.2.0-ac1d123db9645cd0089011fd57311f0576eaf575/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 9.4.0
+    created: "2026-09-30T13:50:38.362955765Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 8.4.0
+    description: A helm chart for creating Cluster API clusters with the Azure provider
+      (CAPZ).
+    digest: 36e458591de6224940ff47783a7fa0365cce22d8969aa5fa0624bf1cd0d22815
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    keywords:
+    - capz
+    - azure
+    maintainers:
+    - email: team-phoenix@giantswarm.io
+      name: Team Phoenix
+    name: release-azure
+    sources:
+    - https://github.com/giantswarm/cluster-azure
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-azure-35.2.0-ac1d123db9645cd0089011fd57311f0576eaf575.tgz
+    version: 35.2.0-ac1d123db9645cd0089011fd57311f0576eaf575
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-azure/issues
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-azure-35.2.0-a97a1b685a29ff4013abc876672b259419d53d68.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.2.0-a97a1b685a29ff4013abc876672b259419d53d68/README.md
       io.giantswarm.application.restrictions.compatible-providers: azure
@@ -80871,4 +80906,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-09-30T13:50:24.78241692Z"
+generated: "2026-09-30T13:50:38.353354014Z"
