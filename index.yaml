@@ -210,6 +210,35 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/cluster/issues
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-8.4.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster/refs/tags/v8.4.2/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster/refs/tags/v8.4.2/helm/cluster/values.schema.json
+    apiVersion: v2
+    appVersion: 8.4.2
+    created: "2026-10-05T15:04:36.466999742Z"
+    description: A helm chart for creating Cluster API clusters.
+    digest: faf9df1ec2204be3816ac0e4a0fb7bea1256a1b74111fb6a7ea412ba26104707
+    home: https://github.com/giantswarm/cluster
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - capi
+    - cluster-api
+    maintainers:
+    - email: team-tenet@giantswarm.io
+      name: Team Tenet
+    name: cluster
+    sources:
+    - https://github.com/giantswarm/cluster
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/cluster-8.4.2.tgz
+    version: 8.4.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster/issues
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/cluster-8.4.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster/refs/tags/v8.4.0/README.md
       io.giantswarm.application.team: tenet
@@ -81641,4 +81670,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-10-05T14:52:19.557937039Z"
+generated: "2026-10-05T15:04:36.458467851Z"
