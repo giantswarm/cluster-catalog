@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/appType: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-azure-10.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v10.1.0/README.md
+  application.giantswarm.io/restrictions/compatibleProviders: azure
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v10.1.0/helm/cluster-azure/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-azure/issues\n"
+chartApiVersion: v2
+chartFile: release-azure-36.1.0-a9eb0c909402deb948de6681f9270c1b8b77871c.tgz
+dateCreated: '2026-10-06T19:09:00.704220Z'
+digest: 9d0cb8183d48b974899418fc7a9cd8c51668ef7f9264622a604299c54e5864b4
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
