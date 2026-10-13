@@ -54237,6 +54237,41 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/cluster-cloud-director/issues
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-cloud-director-35.2.1-70f5dda74f83e57904ed05c9fcbf479ad12c8e14.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.2.1-70f5dda74f83e57904ed05c9fcbf479ad12c8e14/README.md
+      io.giantswarm.application.restrictions.compatible-providers: cloud-director
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.2.1-70f5dda74f83e57904ed05c9fcbf479ad12c8e14/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 7.4.2
+    created: "2026-10-13T14:41:47.291911799Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 8.4.2
+    description: A helm chart for creating Cluster API clusters with the VMware Cloud
+      Director (VCD) infrastructure provider (CAPVCD).
+    digest: b7542bb0c2c1ed9a71bc011232d7d4a348c24540f28f64b78b190fec7a66d6f5
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
+    keywords:
+    - capvcd
+    - cloud-director
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: release-cloud-director
+    sources:
+    - https://github.com/giantswarm/cluster-cloud-director
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-cloud-director-35.2.1-70f5dda74f83e57904ed05c9fcbf479ad12c8e14.tgz
+    version: 35.2.1-70f5dda74f83e57904ed05c9fcbf479ad12c8e14
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-cloud-director/issues
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-cloud-director-35.2.1-63772d643e8b252ad7dac66e4edade28f13a4cd8.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.2.1-63772d643e8b252ad7dac66e4edade28f13a4cd8/README.md
       io.giantswarm.application.restrictions.compatible-providers: cloud-director
@@ -85739,4 +85774,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-10-13T14:41:27.512407662Z"
+generated: "2026-10-13T14:41:47.28169074Z"
