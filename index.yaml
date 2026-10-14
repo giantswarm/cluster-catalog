@@ -42130,14 +42130,14 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v36.1.1-b20d3914aa90ea85139e9f42790a931d021b1285/helm/release-chart/values.schema.json
     apiVersion: v2
     appVersion: 10.1.1
-    created: "2026-10-14T14:04:35.860637275Z"
+    created: "2026-10-14T14:05:03.273708062Z"
     dependencies:
     - name: cluster
       repository: https://giantswarm.github.io/cluster-catalog
       version: 9.0.2
     description: A helm chart for creating Cluster API clusters with the Azure provider
       (CAPZ).
-    digest: c8965f20fb0e31632d33118a8f7ef3567a331977c0dd73f90ea286e12aa9b5e7
+    digest: 8579c1eb2177da367772a001e65de2a2b9b32b0f31687034207cac8060dd92de
     home: https://github.com/giantswarm/releases
     icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
     keywords:
@@ -87039,4 +87039,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-10-14T14:04:50.426990611Z"
+generated: "2026-10-14T14:05:03.261751604Z"
