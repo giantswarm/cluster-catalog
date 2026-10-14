@@ -74111,7 +74111,7 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v36.1.1-b20d3914aa90ea85139e9f42790a931d021b1285/helm/release-chart/values.schema.json
     apiVersion: v2
     appVersion: 11.0.0
-    created: "2026-10-14T14:04:41.517573169Z"
+    created: "2026-10-14T14:04:50.43998884Z"
     dependencies:
     - name: cluster
       repository: https://giantswarm.github.io/cluster-catalog
@@ -87039,4 +87039,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-10-14T14:04:44.757292515Z"
+generated: "2026-10-14T14:04:50.426990611Z"

@@ -9,7 +9,7 @@ annotations:
   artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-vsphere/issues\n"
 chartApiVersion: v2
 chartFile: release-vsphere-36.1.1-b20d3914aa90ea85139e9f42790a931d021b1285.tgz
-dateCreated: '2026-10-14T14:04:32.000003Z'
+dateCreated: '2026-10-14T14:04:32.110376Z'
 digest: bbbcdc639842a79e6beccfb0db3e677b3207ad30a3303fe79baa99332d3ebbde
 home: https://github.com/giantswarm/releases
 icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
