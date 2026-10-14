@@ -9,7 +9,7 @@ annotations:
   artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-aws/issues\n"
 chartApiVersion: v2
 chartFile: release-aws-36.1.1-b20d3914aa90ea85139e9f42790a931d021b1285.tgz
-dateCreated: '2026-10-14T14:04:23.594504Z'
-digest: 7ab25134e99621d30ad80c2ca0d3be3cce0d29c502390bd9b8c3a2b15f2262df
+dateCreated: '2026-10-14T14:05:02.718262Z'
+digest: 95aad1936fb5403d37b9239c82156c4dee7a3433df31bb17c90024a55f49a68c
 home: https://github.com/giantswarm/releases
 icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
