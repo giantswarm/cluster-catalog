@@ -79570,6 +79570,41 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/cluster-vsphere/issues
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-vsphere-35.1.1-45def559000ff9f1078fc7b24a3425a47545cbae.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.1.1-45def559000ff9f1078fc7b24a3425a47545cbae/README.md
+      io.giantswarm.application.restrictions.compatible-providers: vsphere
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.1.1-45def559000ff9f1078fc7b24a3425a47545cbae/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 9.3.1
+    created: "2026-10-19T10:03:54.433901021Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 8.3.1
+    description: A helm chart for creating Cluster API clusters with the vSphere provider
+      (CAPV).
+    digest: d083cbd448312d67e477e8d05eb5a5603692f792be5511b5ba8af107695f0dfe
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+    keywords:
+    - capv
+    - vsphere
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: release-vsphere
+    sources:
+    - https://github.com/giantswarm/cluster-vsphere
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-vsphere-35.1.1-45def559000ff9f1078fc7b24a3425a47545cbae.tgz
+    version: 35.1.1-45def559000ff9f1078fc7b24a3425a47545cbae
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-vsphere/issues
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-vsphere-35.1.1-26392609326ccc97a2a653f0c6c63cc3a320bf5d.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v35.1.1-26392609326ccc97a2a653f0c6c63cc3a320bf5d/README.md
       io.giantswarm.application.restrictions.compatible-providers: vsphere
@@ -90090,4 +90125,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-10-19T10:03:50.603976631Z"
+generated: "2026-10-19T10:03:54.424322879Z"
