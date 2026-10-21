@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/appType: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aws-10.3.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-aws/refs/tags/v10.3.1/README.md
+  application.giantswarm.io/restrictions/compatibleProviders: aws
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-aws/refs/tags/v10.3.1/helm/cluster-aws/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-aws/issues\n"
+chartApiVersion: v2
+chartFile: release-aws-35.1.2-25ac3fe19dfebda132bbaee82390582a20f71301.tgz
+dateCreated: '2026-10-21T13:38:22.712716Z'
+digest: d9f44d6740d017e4c7b4365fdc1ae7f5f371c35c00cb1ba3e02edc030ad1812a
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
