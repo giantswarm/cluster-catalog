@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/appType: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-test-catalog/cluster-azure-9.4.3-rfe8b5885t20261026152613h40809b8.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v9.4.3-rfe8b5885t20261026152613h40809b8/README.md
+  application.giantswarm.io/restrictions/compatibleProviders: azure
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-azure/refs/tags/v9.4.3-rfe8b5885t20261026152613h40809b8/helm/cluster-azure/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-azure/issues\n"
+chartApiVersion: v2
+chartFile: release-azure-35.3.0-888ab7487b384ffedd4267342c51ea1507df4ff6.tgz
+dateCreated: '2026-10-26T15:52:06.238146Z'
+digest: 01e135ae8b93ae07996ad1112157d9d19b6668ea8965ac2a03baf94c25bfb5fe
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
