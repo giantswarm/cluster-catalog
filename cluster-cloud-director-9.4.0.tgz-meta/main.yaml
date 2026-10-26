@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/team: rocket
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cluster-cloud-director/issues\n"
+chartApiVersion: v2
+chartFile: cluster-cloud-director-9.4.0.tgz
+dateCreated: '2026-10-26T12:47:14.884604Z'
+digest: c8e26e1fe7818d4d9e02dee96581dd5d91d383780fb57af8a597b97684ae7540
+home: https://github.com/giantswarm/cluster-cloud-director
+icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
+restrictions:
+  compatibleProviders:
+  - cloud-director
