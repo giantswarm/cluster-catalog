@@ -1,0 +1,16 @@
+annotations:
+  application.giantswarm.io/appType: cluster
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-aks-0.11.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-aks/refs/tags/v0.11.0/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-aks/refs/tags/v0.11.0/helm/cluster-aks/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-aks/issues\n"
+chartApiVersion: v2
+chartFile: release-aks-36.2.0-689d44773152add0d39fb45b2ecc4a2012548d9d.tgz
+dateCreated: '2026-11-02T13:33:25.937539Z'
+digest: 65e280fdd23565fea5e40e44109aa673a1a1d441c0750527d8419c542da91602
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
