@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: phoenix
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cluster-aks/issues\n"
+chartApiVersion: v2
+chartFile: cluster-aks-0.11.1.tgz
+dateCreated: '2026-11-03T09:18:20.752283Z'
+digest: 643828cb4753bb0fc60535805b8693a5bcf3abdd2a8eb0a7f4632b337aea85a5
+home: https://github.com/giantswarm/cluster-aks
+icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
