@@ -29488,6 +29488,37 @@ entries:
       io.giantswarm.application.app-type: cluster
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aks-37.0.0-4639cc2b69af299954c6c7c57fac37f5b3b4ab2e.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v37.0.0-4639cc2b69af299954c6c7c57fac37f5b3b4ab2e/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v37.0.0-4639cc2b69af299954c6c7c57fac37f5b3b4ab2e/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 0.12.1-r00f7c2f7t20261112183240h0157d90
+    created: "2026-11-12T19:35:45.586530902Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 9.5.0
+    description: A Helm chart for creating Cluster API clusters with the Azure infrastructure
+      provider (CAPZ) in AKS mode.
+    digest: 6c10bf5c879fff8d14e7df321f8c2e351d7404faaef2c9ff3dda79e331577705
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    name: release-aks
+    sources:
+    - https://github.com/giantswarm/cluster-aks
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-aks-37.0.0-4639cc2b69af299954c6c7c57fac37f5b3b4ab2e.tgz
+    version: 37.0.0-4639cc2b69af299954c6c7c57fac37f5b3b4ab2e
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-aks/issues
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aks-37.0.0-432febcddc5debb286e960bc649182dc74620637.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v37.0.0-432febcddc5debb286e960bc649182dc74620637/README.md
       io.giantswarm.application.team: phoenix
@@ -108857,4 +108888,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-11-12T19:35:36.823962882Z"
+generated: "2026-11-12T19:35:45.576772729Z"
