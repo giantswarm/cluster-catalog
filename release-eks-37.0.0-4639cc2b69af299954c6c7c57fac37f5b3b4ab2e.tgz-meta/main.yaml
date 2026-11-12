@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/appType: cluster
+  application.giantswarm.io/metadata: https://giantswarm.github.io/cluster-catalog/cluster-eks-4.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/cluster-eks/refs/tags/v4.1.0/README.md
+  application.giantswarm.io/restrictions/compatibleProviders: aws,capa
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/valuesSchema: https://raw.githubusercontent.com/giantswarm/cluster-eks/refs/tags/v4.1.0/helm/cluster-eks/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/cluster-eks/issues\n"
+chartApiVersion: v2
+chartFile: release-eks-37.0.0-4639cc2b69af299954c6c7c57fac37f5b3b4ab2e.tgz
+dateCreated: '2026-11-12T19:35:35.879891Z'
+digest: 08f2f743b17934814bc164f02913c858bd63e844d8415ca2aba1f50f8e1f9798
+home: https://github.com/giantswarm/releases
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
