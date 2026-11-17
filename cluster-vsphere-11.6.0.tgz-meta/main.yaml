@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/team: rocket
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cluster-vsphere/issues\n"
+chartApiVersion: v2
+chartFile: cluster-vsphere-11.6.0.tgz
+dateCreated: '2026-11-17T07:33:47.034529Z'
+digest: 8624e463d85caee4ee8615157ea674fc7cd6016a901e1eec642fe389066cbe71
+home: https://github.com/giantswarm/cluster-vsphere
+icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+restrictions:
+  compatibleProviders:
+  - vsphere
