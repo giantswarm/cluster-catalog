@@ -1,0 +1,16 @@
+annotations:
+  application.giantswarm.io/app-type: cluster
+  application.giantswarm.io/team: phoenix
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cluster-eks/issues\n"
+chartApiVersion: v2
+chartFile: cluster-eks-4.2.0.tgz
+dateCreated: '2026-11-17T07:45:21.017798Z'
+digest: 8d4a57f983d4d53d86da1bc250125052b287dac6d366c8777bb6ae2fb91fc29e
+home: https://github.com/giantswarm/cluster-eks
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+restrictions:
+  compatibleProviders:
+  - aws
+  - capa
