@@ -86213,6 +86213,36 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/cluster-eks/issues
       io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-eks-37.0.0-5065adc246f2040460e458b053336bf27a34bcc3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v37.0.0-5065adc246f2040460e458b053336bf27a34bcc3/README.md
+      io.giantswarm.application.restrictions.compatible-providers: aws,capa
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v37.0.0-5065adc246f2040460e458b053336bf27a34bcc3/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 4.2.0
+    created: "2026-11-18T06:05:42.352736904Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 9.6.0
+    description: A helm chart for creating Cluster API EKS clusters with the AWS infrastructure
+      provider (CAPA).
+    digest: 6f2ccaec5b1a6cfe7cd121ede7aaea61ef47147ba6811f2dca395599ca6d02c7
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: release-eks
+    sources:
+    - https://github.com/giantswarm/cluster-eks
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-eks-37.0.0-5065adc246f2040460e458b053336bf27a34bcc3.tgz
+    version: 37.0.0-5065adc246f2040460e458b053336bf27a34bcc3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-eks/issues
+      io.giantswarm.application.app-type: cluster
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-eks-37.0.0-50100cd5b6aef103812e443dad0729a77cc259c1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v37.0.0-50100cd5b6aef103812e443dad0729a77cc259c1/README.md
       io.giantswarm.application.restrictions.compatible-providers: aws,capa
@@ -112072,4 +112102,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-11-18T06:05:38.861992047Z"
+generated: "2026-11-18T06:05:42.334960995Z"
