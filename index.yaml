@@ -29935,6 +29935,37 @@ entries:
       io.giantswarm.application.app-type: cluster
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aks-37.0.0-4f26e31d6affea16b7d2a1b3385ecdf8ff01b55a.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v37.0.0-4f26e31d6affea16b7d2a1b3385ecdf8ff01b55a/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v37.0.0-4f26e31d6affea16b7d2a1b3385ecdf8ff01b55a/helm/release-chart/values.schema.json
+    apiVersion: v2
+    appVersion: 0.13.0
+    created: "2026-11-19T06:34:43.173835581Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 9.6.0
+    description: A Helm chart for creating Cluster API clusters with the Azure infrastructure
+      provider (CAPZ) in AKS mode.
+    digest: f26a1d5e5d54a5c53043d86c5ba51c6ea8eeae2aeb30c05a382d33ad0f0d2b7d
+    home: https://github.com/giantswarm/releases
+    icon: https://s.giantswarm.io/app-icons/azure/1/light.svg
+    name: release-aks
+    sources:
+    - https://github.com/giantswarm/cluster-aks
+    type: application
+    urls:
+    - https://giantswarm.github.io/cluster-catalog/release-aks-37.0.0-4f26e31d6affea16b7d2a1b3385ecdf8ff01b55a.tgz
+    version: 37.0.0-4f26e31d6affea16b7d2a1b3385ecdf8ff01b55a
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-aks/issues
+      io.giantswarm.application.app-type: cluster
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/cluster-catalog/release-aks-37.0.0-4c42b901e05c4844658243ae56a630e6aac1393d.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/releases/refs/tags/v37.0.0-4c42b901e05c4844658243ae56a630e6aac1393d/README.md
       io.giantswarm.application.team: phoenix
@@ -113474,4 +113505,4 @@ entries:
     urls:
     - https://giantswarm.github.io/cluster-catalog/release-vsphere-0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49.tgz
     version: 0.0.0-dev.capi-34-4-0.2026-06-01.14-47-49
-generated: "2026-11-19T06:34:39.957515328Z"
+generated: "2026-11-19T06:34:43.164307951Z"
